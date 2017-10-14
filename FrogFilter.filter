@@ -54,7 +54,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Chaos Shard" "Alchemy Shard" "Regal Shard" "Jeweller's Orb" "Harbinger's Shard"
+	BaseType "Chaos Shard" "Alchemy Shard" "Regal Shard" "Jeweller's Orb" "Harbinger's Shard" "Binding Shard"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 
@@ -106,7 +106,7 @@ Show
 	PlayAlertSound 4 100
 
 Show
-	BaseType "Binding Shard" "Engineer's Shard" "Horizon Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb"
+	BaseType "Engineer's Shard" "Horizon Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb"
 	SetTextColor 0 255 128
 	SetBorderColor 128 128 255
 
