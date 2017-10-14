@@ -36,7 +36,7 @@ Show
 	PlayAlertSound 8 100
 
 Show
-	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb"
+	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -48,10 +48,15 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Chaos Orb" "Chaos Shard" "Regal Orb" "Divine Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Alchemy Shard" "Regal Shard" "Annulment Shard" "Ancient Shard" "Ancient Orb" "Orb of Annulment" "Gemcutter's Prism"
+	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Orb of Annulment" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Harbinger's Orb" "Orb of Fusing" "Orb of Chance"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
+
+Show
+	BaseType "Chaos Shard" "Alchemy Shard" "Regal Shard" "Jeweller's Orb" "Harbinger's Shard"
+	SetBorderColor 255 25 0
+	SetTextColor 155 255 0
 
 Show
 	Class Gem Flask
@@ -71,6 +76,14 @@ Show
 
 Show
 	Class Divination Card
+	BaseType "The Wolf's Shadow"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+
+Show
+	Class Divination Card
 	BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Queen" "Hunter's Reward" "Mawr Blaidd" "The Immortal"  "The Standoff" "Pride Before the Fall" "Abandoned Wealth" "The King's Heart" "The Wolf" "The Dragon's Heart" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Vast" "Wealth and Power" "Last Hope" "The Artist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Thaumaturgist" "The Valkyrie" "The Fletcher" "Time-Lost Relic" "Heterochromia" "The Sephirot" "The Formless Sea" "The Enlightened" "The Hoarder"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
@@ -86,23 +99,24 @@ Show
 	PlayAlertSound 4 100
 
 Show
-	BaseType "Sextant" "Orb of Binding" "Orb of Horizons" "Harbinger's Orb" "Engineer's Orb" "Orb of Fusing" "Orb of Chance" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring"
+	BaseType "Orb of Horizons" "Engineer's Orb" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring"
 	SetTextColor 0 255 128
 	SetBorderColor 128 128 255
 	SetFontSize 42
 	PlayAlertSound 4 100
 
 Show
-	BaseType "Binding Shard" "Engineer's Shard" "Horizon Shard" "Jeweller's Orb" "Harbinger's Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb"
+	BaseType "Binding Shard" "Engineer's Shard" "Horizon Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb"
 	SetTextColor 0 255 128
 	SetBorderColor 128 128 255
 
 Show
 	Class Gem
 	BaseType "Portal" "Detonate Mines"
-	SetTextColor 255 50 50
+	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
+	SetBackgroundColor 255 255 255
 	PlayAlertSound 8 100
 
 Show
@@ -138,7 +152,13 @@ Show
 	SetBorderColor 128 0 255
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Leather Belt" "Hubris Circlet"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
+	ItemLevel >= 84
+	Rarity Normal
+	SetBorderColor 255 0 200
+
+Show
+	Class Ring Amulet Belt
 	ItemLevel >= 84
 	Rarity Normal
 	SetBorderColor 255 0 200
@@ -186,7 +206,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
 	Rarity Rare
 	ItemLevel >= 84
 	SetBorderColor 255 0 119
@@ -194,7 +214,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
 	Rarity Rare
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
@@ -202,8 +222,8 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand"
-	Rarity Rare
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
+	Rarity Rare 
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
 	SetTextColor 200 155 0
@@ -230,12 +250,6 @@ Show
 Show
 	Rarity Rare
 	SetTextColor 200 155 0
-
-Show
-	Class Ring Amulet Belt
-	Rarity Normal
-	ItemLevel >= 60
-	SetBorderColor 0 0 255
 
 Show
 	SocketGroup RGB
