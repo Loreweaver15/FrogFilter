@@ -244,7 +244,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Body Axe Mace Sword Bow Claw Dagger
+	Class Body One Two Bow Claws Daggers
 	Rarity Rare
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
