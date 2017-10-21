@@ -219,7 +219,7 @@ Show
 	SetTextColor 200 155 0
 	SetFontSize 42
 
-how
+Show
 	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand" "Royal Burgonet" "Ezomyte Tower Shield"
 	Rarity Rare
 	ItemLevel >= 84
