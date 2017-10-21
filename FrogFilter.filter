@@ -153,13 +153,13 @@ Show
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity Normal
 	SetBorderColor 255 0 200
 
 Show
 	Class Ring Amulet Belt
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity Normal
 	SetBorderColor 255 0 200
 
@@ -177,7 +177,7 @@ Show
 Show
 	Class Ring Amulet Belt Jewel
 	Rarity Rare
-	ItemLevel >= 84
+	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
 	SetFontSize 42
@@ -208,7 +208,7 @@ Show
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
 	Rarity Rare
-	ItemLevel >= 84
+	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
 	SetFontSize 42
@@ -231,7 +231,7 @@ Show
 
 Show
 	Rarity Rare
-	ItemLevel >= 84
+	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
 
