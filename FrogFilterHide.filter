@@ -199,12 +199,6 @@ Show
 	SetBorderColor 128 0 255
 
 Show
-	Class Ring Amulet Belt
-	ItemLevel >= 84
-	Rarity Normal
-	SetBorderColor 255 0 200
-
-Show
 	BaseType "Ebony Tower Shield" "Sorcerer Boots" "Glorious Plate"
 	Rarity Normal
 	SetBorderColor 255 255 0
@@ -504,3 +498,5 @@ Show
 	Class Armour Gloves Helmet Shield Bow One Two Boots
 	Quality = 20
 	SetBorderColor 0 0 255
+
+Hide
