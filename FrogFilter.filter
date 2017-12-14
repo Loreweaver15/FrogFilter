@@ -460,6 +460,14 @@ Show
 	SetTextColor 49 179 185
 
 Show
+	ElderItem True
+	SetTextColor 49 179 185
+
+Show
+	ShaperItem True
+	SetTextColor 220 14 70
+
+Show
 	Rarity Rare
 	ItemLevel >= 84
 	SetBorderColor 255 0 119
