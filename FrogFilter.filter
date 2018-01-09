@@ -1,12 +1,75 @@
+#Show
+#	BaseType "Leather Belt"
+#	Rarity Normal
+#	SetBorderColor 0 0 255
+#	SetFontSize 42
+
 Show
-	BaseType "Leather Belt"
-	Rarity Normal
-	SetBorderColor 0 0 255
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
+	ItemLevel >= 86
+	ShaperItem True
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+
+Show
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	ItemLevel >= 85
+	ShaperItem True
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
+	ItemLevel >= 86
+	ElderItem True
+	SetBorderColor 255 0 119
+	SetTextColor 49 179 185
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+
+Show
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	ItemLevel >= 85
+	ElderItem True
+	SetBorderColor 255 0 119
+	SetTextColor 49 179 185
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	ElderItem True
+	SetBorderColor 255 0 119
+	SetTextColor 49 179 185
 	SetFontSize 42
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-	ItemLevel >= 84
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	ShaperItem True
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
+	ItemLevel >= 86
+	SetBorderColor 255 100 150
+	SetBackgroundColor 255 255 255
+	SetTextColor 105 25 25
+	SetFontSize 42
+	PlayAlertSound 8 100
+
+Show
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	ItemLevel >= 85
 	SetBorderColor 255 100 150
 	SetBackgroundColor 255 255 255
 	SetTextColor 105 25 25
@@ -33,7 +96,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Talisman" "Remnant of Corruption" "Splinter of" "Essence of" "League" "Stygian Vise" "Murderous Eye" "Searching Eye" "Hypnotic Eye" "Ghastly Eye"
+	BaseType "Talisman" "Remnant of Corruption" "Splinter of" "Essence of" "League"
 	SetBorderColor 255 240 20
 	SetTextColor 255 240 20
 	SetFontSize 42
@@ -51,12 +114,28 @@ Show
 	PlayAlertSound 8 100
 
 Show
+	Class Divination Card
+	BaseType "The Enlightened"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+
+Show
 	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
 	SetBackgroundColor 255 255 255
 	PlayAlertSound 8 100
+
+Show
+	Class Map
+	BaseType "Spider Lair" "Ivory Temple"
+	SetBorderColor 255 240 20
+	ShapedMap True
+	SetFontSize 42
 
 Show
 	Class Map
@@ -79,7 +158,7 @@ Show
 
 Show
 	Class Map
-	BaseType "Lookout" "Beach" "Graveyard" "Dungeon" "Alleyways" "Pen" "Desert" "Arid Lake" "Flooded Mine" "Marshes" "Iceberg" "Cage" "Springs" "Excavation" "Leyline" "Peninsula" "Port" "Burial Chambers" "Cells" "Arcade" "City Square" "Relic Chambers" "Courthouse" "Strand" "Chateau" "Grotto" "Gorge" "Volcano" "Lighthouse" "Canyon" "Conservatory" "Sulphur Vents" "Haunted Mansion" "Maze Map" "Channel" "Toxic Sewer" "Ancient City" "Ivory Temple" "Spider Lair" "Barrows"
+	BaseType "Lookout" "Beach" "Graveyard" "Dungeon" "Alleyways" "Pen" "Desert" "Arid Lake" "Flooded Mine" "Marshes" "Iceberg" "Cage" "Springs" "Excavation" "Leyline" "Peninsula" "Port" "Burial Chambers" "Cells" "Arcade" "City Square" "Relic Chambers" "Courthouse" "Strand" "Chateau" "Grotto" "Gorge" "Volcano" "Lighthouse" "Canyon" "Conservatory" "Sulphur Vents" "Haunted Mansion" "Maze Map" "Channel" "Toxic Sewer" "Ancient City" "Barrows"
 	SetBorderColor 255 240 20
 	ShapedMap True
 	SetFontSize 42
@@ -140,7 +219,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Queen" "Hunter's Reward" "Mawr Blaidd" "The Immortal"  "The Standoff" "Pride Before the Fall" "Abandoned Wealth" "The King's Heart" "The Wolf" "The Dragon's Heart" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Vast" "Wealth and Power" "Last Hope" "The Artist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Thaumaturgist" "The Valkyrie" "The Fletcher" "Time-Lost Relic" "Heterochromia" "The Sephirot" "The Formless Sea" "The Enlightened" "The Hoarder" "Left to Fate"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Queen" "Hunter's Reward" "Mawr Blaidd" "The Immortal"  "The Standoff" "Pride Before the Fall" "Abandoned Wealth" "The King's Heart" "The Wolf" "The Dragon's Heart" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Vast" "Wealth and Power" "Last Hope" "The Artist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Thaumaturgist" "The Valkyrie" "The Fletcher" "Time-Lost Relic" "Heterochromia" "The Sephirot" "The Formless Sea" "The Enlightened" "The Hoarder" "Left to Fate" "The Spark and the Flame" "The Wolven King's Bite" "The Wind"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -173,6 +252,12 @@ Show
 	SetFontSize 42
 
 Show
+	BaseType "Orb of Alteration"
+	SetTextColor 255 100 0
+	SetBorderColor 100 0 200
+	SetFontSize 42
+
+Show
 	Class Currency
 	SetTextColor 255 100 0
 	SetBorderColor 100 0 200
@@ -191,7 +276,7 @@ Show
 	BaseType "Shaper's Orb"
 	SetTextColor 0 255 0
 	SetBorderColor 128 0 255
-	SetFontSize 100
+	SetFontSize 42
 
 Show
 	Sockets 6
@@ -199,177 +284,238 @@ Show
 	SetBorderColor 128 0 255
 
 Show
-	Class Ring Amulet Belt
-	ItemLevel >= 84
+	Class Ring Jewel
+	ItemLevel >= 85
 	Rarity Normal
 	SetBorderColor 255 0 200
 
 Show
-	BaseType "Ebony Tower Shield" "Sorcerer Boots" "Glorious Plate"
+	Class Amulet Belt Quiver
+	ItemLevel >= 86
+	Rarity Normal
+	SetBorderColor 255 0 200
+
+Show
+	BaseType "Ebony Tower Shield" "Sorcerer Boots" "Glorious Plate" "Rawhide Tower Shield" "Gold Amulet"
 	Rarity Normal
 	SetBorderColor 255 255 0
+
+Show
+	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye"
+	ItemLevel >= 84
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
 
 Show
 	Class Jewel
 	Rarity Magic
 	SetFontSize 42
-	SetBorderColor 255 255 255
+	SetBorderColor 133 133 250
 
 Show
-	Class Ring Amulet Belt Jewel
-	ShaperItem True
-	ItemLevel >= 84
-	SetBorderColor 255 0 119
-	SetTextColor 220 14 70
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	ShaperItem True
-	ItemLevel >= 75
-	SetBorderColor 24 121 180
-	SetTextColor 220 14 70
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	ShaperItem True
-	ItemLevel >= 60
-	SetBorderColor 255 255 119
-	SetTextColor 220 14 70
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	ShaperItem True
-	ItemLevel < 60
-	SetTextColor 220 14 70
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	ElderItem True
-	ItemLevel >= 84
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	ElderItem True
-	ItemLevel >= 75
-	SetBorderColor 24 121 180
-	SetTextColor 49 179 185
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	ElderItem True
-	ItemLevel >= 60
-	SetBorderColor 255 255 119
-	SetTextColor 49 179 185
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	ElderItem True
-	ItemLevel < 60
-	SetTextColor 49 179 185
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 0 119
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	Rarity Rare
-	ItemLevel >= 75
-	SetBorderColor 24 121 180
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	Rarity Rare
-	ItemLevel >= 60
-	SetBorderColor 255 255 119
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Jewel
-	Rarity Rare
-	ItemLevel < 60
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Zodiac Leather"
+	Class Ring Jewel
 	ShaperItem True
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetFontSize 42
+	PlayAlertSound 11 100
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Zodiac Leather"
+	Class Amulet Belt Quiver
+	ShaperItem True
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	ShaperItem True
+	ItemLevel >= 75
+	SetBorderColor 24 121 180
+	SetTextColor 220 14 70
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	ShaperItem True
+	ItemLevel >= 60
+	SetBorderColor 255 255 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	ShaperItem True
+	ItemLevel < 60
+	SetTextColor 220 14 70
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	Class Ring Jewel
 	ElderItem True
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 49 179 185
 	SetFontSize 42
+	PlayAlertSound 11 100
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Zodiac Leather"
+	Class Amulet Belt Quiver
+	ElderItem True
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 49 179 185
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	ElderItem True
+	ItemLevel >= 75
+	SetBorderColor 24 121 180
+	SetTextColor 49 179 185
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	ElderItem True
+	ItemLevel >= 60
+	SetBorderColor 255 255 119
+	SetTextColor 49 179 185
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	ElderItem True
+	ItemLevel < 60
+	SetTextColor 49 179 185
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	Class Ring Jewel
 	Rarity Rare
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
 	SetFontSize 42
 
+
 Show
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand" "Royal Burgonet" "Ezomyte Tower Shield" "Quiver"
+	Class Amulet Belt Quiver
+	Rarity Rare
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	Rarity Rare
+	ItemLevel >= 75
+	SetBorderColor 24 121 180
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	Rarity Rare
+	ItemLevel >= 60
+	SetBorderColor 255 255 119
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	Rarity Rare
+	ItemLevel < 60
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
 	ShaperItem True
-	ItemLevel >= 84
+	ItemLevel >= 86
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetFontSize 42
+	PlayAlertSound 11 100
 
 Show
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand" "Royal Burgonet" "Ezomyte Tower Shield" "Quiver"
+	BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand"
+	ShaperItem True
+	ItemLevel >= 85
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
 	ElderItem True
-	ItemLevel >= 84
+	ItemLevel >= 86
 	SetBorderColor 255 0 119
 	SetTextColor 49 179 185
 	SetFontSize 42
+	PlayAlertSound 11 100
 
 Show
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand" "Royal Burgonet" "Ezomyte Tower Shield" "Quiver"
+	BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand"
+	ElderItem True
+	ItemLevel >= 85
+	SetBorderColor 255 0 119
+	SetTextColor 49 179 185
+	SetFontSize 42
+	PlayAlertSound 11 100
+
+Show
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
+	Rarity Rare
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Sambar Sceptre" "Void Sceptre"
+	Rarity Rare
+	ItemLevel >= 85
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	BaseType "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand"
 	Rarity Rare
 	ItemLevel >= 84
 	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
 	SetFontSize 42
 
+
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Zodiac Leather" 
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
+	ItemLevel >= 86
+	Rarity Normal
+	SetBorderColor 255 0 200
+
+Show
+	BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Sambar Sceptre" "Void Sceptre"
 	ItemLevel >= 85
 	Rarity Normal
 	SetBorderColor 255 0 200
 
 Show
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand" "Royal Burgonet" "Ezomyte Tower Shield"
-	ItemLevel >= 84
-	Rarity Normal
-	SetBorderColor 255 0 200
-
-Show
-	Class Ring Amulet Belt
+	BaseType "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand"
 	ItemLevel >= 84
 	Rarity Normal
 	SetBorderColor 255 0 200
@@ -381,6 +527,7 @@ Show
 	SetBorderColor 24 121 180
 	SetTextColor 220 14 70
 	SetFontSize 42
+	PlayAlertSound 11 100
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
@@ -389,6 +536,7 @@ Show
 	SetBorderColor 24 121 180
 	SetTextColor 49 179 185
 	SetFontSize 42
+	PlayAlertSound 11 100
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
@@ -405,6 +553,7 @@ Show
 	SetBorderColor 255 255 119
 	SetTextColor 220 14 70
 	SetFontSize 42
+	PlayAlertSound 11 100
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
@@ -413,6 +562,7 @@ Show
 	SetBorderColor 255 255 119
 	SetTextColor 49 179 185
 	SetFontSize 42
+	PlayAlertSound 11 100
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
@@ -423,55 +573,72 @@ Show
 	SetFontSize 42
 
 Show
-	Class Body One Two Bow Claws Daggers
+	Class Body Helm Boot Shield
+	Rarity Rare
+	ShaperItem True
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	PlayAlertSound 11 100
+
+Show
+	Class One Two Bow Claws Daggers Glove
 	Rarity Rare
 	ShaperItem True
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
+	PlayAlertSound 11 100
 
 Show
-	Class Body One Two Bow Claws Daggers
+	Class Body Helm Boot Shield
+	Rarity Rare
+	ElderItem True
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 49 179 185
+	PlayAlertSound 11 100
+
+Show
+	Class One Two Bow Claws Daggers Glove
 	Rarity Rare
 	ElderItem True
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 49 179 185
+	PlayAlertSound 11 100
 
 Show
-	Class Body One Two Bow Claws Daggers
+	Class Wand Staves	
+	Rarity Rare
+	ItemLevel >= 84
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+
+Show
+	Class Body Helm Boot Shield
+	Rarity Rare
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+
+Show
+	Class One Two Bow Claws Daggers Glove
 	Rarity Rare
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
 
-Show
-	Rarity Rare
-	ItemLevel >= 84
-	ShaperItem True
-	SetBorderColor 255 0 119
-	SetTextColor 220 14 70
-
-Show
-	Rarity Rare
-	ItemLevel >= 84
-	ElderItem True
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
 
 Show
 	ElderItem True
 	SetTextColor 49 179 185
+	PlayAlertSound 11 100
 
 Show
 	ShaperItem True
 	SetTextColor 220 14 70
-
-Show
-	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 0 119
-	SetTextColor 200 155 0
+	PlayAlertSound 11 100
 
 Show
 	Rarity Rare
