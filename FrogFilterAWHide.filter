@@ -102,7 +102,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Treasure Key" "Rod of Detonation" "Orb of Elemental Dispersion" "Bane of the Loyal" "Silver Key" "Golden Key" "Portal Shredder" "Cube Of Absorption" "Cogs of Disruption" "Sand of Eternity" "Heart of the Gargoyle" "Shaper's Orb"
+	BaseType "Treasure Key" "Rod of Detonation" "Orb of Elemental Dispersion" "Bane of the Loyal" "Silver Key" "Golden Key" "Portal Shredder" "Cube Of Absorption" "Cogs of Disruption" "Sand of Eternity" "Heart of the Gargoyle" "Shaper's Orb" "Memory Fragment"
 	SetFontSize 42
 	SetTextColor 0 255 0
 	SetBorderColor 0 255 0
