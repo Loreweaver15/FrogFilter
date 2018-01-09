@@ -139,6 +139,12 @@ Show
 
 Show
 	Class Map
+	BaseType "Spider Lair" "Ivory Temple"
+	SetBorderColor 255 255 255
+	SetFontSize 42
+
+Show
+	Class Map
 	BaseType "Promenade" "Lair Map" "Colonnade" "Primordial Pool" "Spider Forest" "Coves" "Waterways" "Factory" "Mesa" "Pit Map" "Defiled Cathedral" "Summit" "Overgrown Shrine" "Castle Ruins" "Crystal Ore" "Villa" "Torture Chamber" "Necropolis" "Racecourse" "Caldera" "Ghetto" "Park" "Malformation" "Terrace" "Shrine" "Arsenal" "Desert Spring" "Core" "Colosseum" "Acid Lakes" "Dark Forest" "Crimson Temple" "Plaza" "Dig" "Palace" "Lava Lake" "Basilica" "Sunken City" "Reef" "Carcass"
 	SetBorderColor 255 0 0
 	SetFontSize 42
