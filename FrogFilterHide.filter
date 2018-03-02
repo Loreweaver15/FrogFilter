@@ -1,8 +1,8 @@
-#Show
-#	BaseType "Leather Belt"
-#	Rarity Normal
-#	SetBorderColor 0 0 255
-#	SetFontSize 42
+Show
+	BaseType "Leather Belt"
+	Rarity Normal
+	SetBorderColor 0 0 255
+	SetFontSize 42
 
 Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
@@ -102,7 +102,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Treasure Key" "Rod of Detonation" "Orb of Elemental Dispersion" "Bane of the Loyal" "Silver Key" "Golden Key" "Portal Shredder" "Cube Of Absorption" "Cogs of Disruption" "Sand of Eternity" "Heart of the Gargoyle" "Shaper's Orb" "Memory Fragment"
+	Class Quest
 	SetFontSize 42
 	SetTextColor 0 255 0
 	SetBorderColor 0 255 0
@@ -123,7 +123,7 @@ Show
 	PlayAlertSound 4 100
 
 Show
-	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple"
+	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple" "Essence of Hysteria" "Essence of Insanity" "Essence of Delirium" "Essence of Horror"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -180,7 +180,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Orb of Annulment" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Harbinger's Orb" "Orb of Fusing" "Orb of Chance"
+	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Orb of Annulment" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Harbinger's Orb" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Thaumaturgical Net"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -225,7 +225,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Queen" "Hunter's Reward" "Mawr Blaidd" "The Immortal"  "The Standoff" "Pride Before the Fall" "Abandoned Wealth" "The King's Heart" "The Wolf" "The Dragon's Heart" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Vast" "Wealth and Power" "Last Hope" "The Artist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Thaumaturgist" "The Valkyrie" "The Fletcher" "Time-Lost Relic" "Heterochromia" "The Sephirot" "The Formless Sea" "The Enlightened" "The Hoarder" "Left to Fate" "The Spark and the Flame" "The Wolven King's Bite" "The Wind"
+	BaseType "The Obscured" "The World Eater" "Blessing of God" "The Dreamer" "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Queen" "Hunter's Reward" "Mawr Blaidd" "The Immortal"  "The Standoff" "Pride Before the Fall" "Abandoned Wealth" "The King's Heart" "The Wolf" "The Dragon's Heart" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Vast" "Wealth and Power" "Last Hope" "The Artist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Thaumaturgist" "The Valkyrie" "The Fletcher" "Time-Lost Relic" "Heterochromia" "The Sephirot" "The Formless Sea" "The Enlightened" "The Hoarder" "Left to Fate" "The Spark and the Flame" "The Wolven King's Bite" "The Wind"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -669,16 +669,19 @@ Show
 Show
 	Class Gloves
 	Rarity Magic
+	Identified True
 	SetBorderColor 0 0 255
 
 Show
 	Class Helmets
 	Rarity Magic
+	Identified True
 	SetBorderColor 255 0 0
 
 Show
 	Class Boots
 	Rarity Magic
+	Identified True
 	SetBorderColor 0 255 0
 
 Show
