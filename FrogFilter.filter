@@ -96,6 +96,14 @@ Show
 	SetFontSize 42
 
 Show
+	BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Delirium" "Essence of Horror"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+
+Show
 	BaseType "Talisman" "Remnant of Corruption" "Splinter of" "Essence of" "League"
 	SetBorderColor 255 240 20
 	SetTextColor 255 240 20
@@ -123,7 +131,7 @@ Show
 	PlayAlertSound 4 100
 
 Show
-	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple" "Essence of Hysteria" "Essence of Insanity" "Essence of Delirium" "Essence of Horror"
+	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
