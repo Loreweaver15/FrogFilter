@@ -116,6 +116,12 @@ Show
 	SetBorderColor 0 255 0
 
 Show
+	BaseType "Treasure Key"
+	SetFontSize 42
+	SetTextColor 0 255 0
+	SetBorderColor 0 255 0
+
+Show
 	Rarity Unique
 	SetFontSize 42
 	SetBorderColor 175 96 37
