@@ -104,7 +104,7 @@ Show
 	PlayAlertSound 8 100
 
 Show
-	BaseType "Talisman" "Remnant of Corruption" "Splinter of" "Essence of" "League"
+	BaseType "Talisman" "Remnant of Corruption" "Splinter of" "Essence of" "League" "Vial of"
 	SetBorderColor 255 240 20
 	SetTextColor 255 240 20
 	SetFontSize 42
@@ -116,7 +116,7 @@ Show
 	SetBorderColor 0 255 0
 
 Show
-	BaseType "Treasure Key"
+	BaseType "Treasure Key" "Bane of the Loyal" "Cogs of Disruption" "Cube of Absorption" "Heart of the Gargoyle" "Orb of Elemental Dispersion" "Portal Shredder" "Rod of Detonation" "Sand of Eternity" "Stone of Passage" "Flashpowder Keg"
 	SetFontSize 42
 	SetTextColor 0 255 0
 	SetBorderColor 0 255 0
@@ -137,7 +137,16 @@ Show
 	PlayAlertSound 4 100
 
 Show
-	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple" "Necromancy Net"
+	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple" "Necromancy Net" "Thaumaturgical Net"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+
+Show
+	Class Map
+	BaseType "Elder"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -194,7 +203,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Orb of Annulment" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Harbinger's Orb" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Thaumaturgical Net"
+	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Orb of Annulment" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Harbinger's Orb" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -239,7 +248,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Obscured" "The World Eater" "Blessing of God" "The Dreamer" "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Queen" "Hunter's Reward" "Mawr Blaidd" "The Immortal"  "The Standoff" "Pride Before the Fall" "Abandoned Wealth" "The King's Heart" "The Wolf" "The Dragon's Heart" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Vast" "Wealth and Power" "Last Hope" "The Artist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Thaumaturgist" "The Valkyrie" "The Fletcher" "Time-Lost Relic" "Heterochromia" "The Sephirot" "The Formless Sea" "The Enlightened" "The Hoarder" "Left to Fate" "The Spark and the Flame" "The Wolven King's Bite" "The Wind"
+	BaseType "The Obscured" "The World Eater" "Blessing of God" "The Dreamer" "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Queen" "Hunter's Reward" "Mawr Blaidd" "The Immortal"  "The Standoff" "Pride Before the Fall" "Abandoned Wealth" "The King's Heart" "The Wolf" "The Dragon's Heart" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Vast" "Wealth and Power" "Last Hope" "The Artist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Thaumaturgist" "The Valkyrie" "The Fletcher" "Time-Lost Relic" "Heterochromia" "The Sephirot" "The Formless Sea" "The Enlightened" "The Hoarder" "Left to Fate" "The Spark and the Flame" "The Wolven King's Bite" "The Wind" "The Undaunted" "The Samurai's Eye" "The Mayor" "The Master" "The Darkest Dream" "Harmony of Souls" "The Admirer" "Immortal Resolve"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
