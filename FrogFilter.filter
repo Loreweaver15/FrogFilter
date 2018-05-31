@@ -1,8 +1,8 @@
-Show
-	BaseType "Leather Belt"
-	Rarity Normal
-	SetBorderColor 0 0 255
-	SetFontSize 42
+#Show
+#	BaseType "Leather Belt"
+#	Rarity Normal
+#	SetBorderColor 0 0 255
+#	SetFontSize 42
 
 Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
