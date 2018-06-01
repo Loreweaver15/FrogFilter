@@ -116,7 +116,7 @@ Show
 	SetBorderColor 0 255 0
 
 Show
-	BaseType "Treasure Key" "Bane of the Loyal" "Cogs of Disruption" "Cube of Absorption" "Heart of the Gargoyle" "Orb of Elemental Dispersion" "Portal Shredder" "Rod of Detonation" "Sand of Eternity" "Stone of Passage" "Flashpowder Keg"
+	BaseType "Treasure Key" "Bane of the Loyal" "Cogs of Disruption" "Cube Of Absorption" "Heart of the Gargoyle" "Orb of Elemental Dispersion" "Portal Shredder" "Rod of Detonation" "Sand of Eternity" "Stone of Passage" "Flashpowder Keg"
 	SetFontSize 42
 	SetTextColor 0 255 0
 	SetBorderColor 0 255 0
