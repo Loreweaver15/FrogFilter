@@ -137,7 +137,7 @@ Show
 	PlayAlertSound 4 100
 
 Show
-	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple" "Necromancy Net" "Thaumaturgical Net"
+	BaseType "Exalted Orb" "Exalted Shard" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Ancient Reliquary Key" "Mirror Shard" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Pit of the Chimera" "Maze of the Minotaur" "Forge of the Phoenix" "Lair of the Hydra" "Vaal Temple" "Necromancy Net" "Thaumaturgical Net" "Vial of the Ghost" "Vial of Sacrifice"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
