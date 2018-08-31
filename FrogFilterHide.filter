@@ -208,14 +208,14 @@ Show
 	MinimapIcon 1 Red Star
 	PlayEffect Red
 
-Show
-	BaseType "A Vision of Ice and Fire" "Fated Connections" "Trash to Treasure" "The Queen's Sacrifice"
-	SetTextColor 189 0 210
-	SetBorderColor 189 0 210
-	SetBackgroundColor 164 164 164
-	SetFontSize 42
-	MinimapIcon 0 Red Star
-	PlayEffect Blue
+#Show
+#	BaseType "A Vision of Ice and Fire" "Fated Connections" "Trash to Treasure" "The Queen's Sacrifice"
+#	SetTextColor 189 0 210
+#	SetBorderColor 189 0 210
+#	SetBackgroundColor 164 164 164
+#	SetFontSize 42
+#	MinimapIcon 0 Red Star
+#	PlayEffect Blue
 
 Show
 	Class Map
