@@ -351,13 +351,22 @@ Show
 	SetBorderColor 128 128 255
 
 Show
-	BaseType "Silver Coin" "The Great Mind of the North" "Cleanser of Sins" "The Great Leader of the North" "The Jeweller's Touch" "Vaal Winds" "A Dishonourable Death" "Darktongue's Shriek" "Monstrous Treasure" "The King's Path" "Wind and Thunder"
+	BaseType "Silver Coin"
 	SetTextColor 189 0 210
 	SetBorderColor 189 0 210
 	SetBackgroundColor 164 164 164
 	SetFontSize 42
 	MinimapIcon 2 Blue Diamond
 	PlayEffect Blue
+
+#Show
+#	BaseType "The Great Mind of the North" "Cleanser of Sins" "The Great Leader of the North" "The Jeweller's Touch" "Vaal Winds" "A Dishonourable Death" "Darktongue's Shriek" "Monstrous Treasure" "The King's Path" "Wind and Thunder"
+#	SetTextColor 189 0 210
+#	SetBorderColor 189 0 210
+#	SetBackgroundColor 164 164 164
+#	SetFontSize 42
+#	MinimapIcon 2 Blue Diamond
+#	PlayEffect Blue
 
 Show
 	BaseType "Orb of Alteration"
