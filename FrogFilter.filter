@@ -142,7 +142,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "League" "Vial of" "Resonator" "Fossil"
+	BaseType "League" "Vial of" "Resonator" "Aberrant Fossil" "Aetheric Fossil" "Bloodstained Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Enchanted Fossil" "Encrusted Fossil" "Faceted Fossil" "Fractured Fossil" "Frigid Fossil" "Gilded Fossil" "Glyphic Fossil" "Hollow Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Perfect Fossil" "Prismatic Fossil" "Pristine Fossil" "Sanctified Fossil" "Scorched Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
 	SetBorderColor 255 240 20
 	SetTextColor 255 240 20
 	SetFontSize 42
@@ -165,7 +165,7 @@ Show
 	SetFontSize 42
 	SetBorderColor 175 96 37
 	PlayAlertSound 8 100
-	MinimapIcon 1 Brown Hexagon
+	MinimapIcon 1 Brown Diamond
 	PlayEffect Brown
 
 Show
@@ -231,7 +231,7 @@ Show
 Show
 	Class Map
 	MapTier <= 5
-	SetBorderColor 255 0 0
+	SetBorderColor 255 255 255
 	SetFontSize 42
 	MinimapIcon 1 White Square
 	PlayEffect White
@@ -247,7 +247,7 @@ Show
 Show
 	Class Map
 	MapTier <= 15
-	SetBorderColor 255 255 255
+	SetBorderColor 255 0 0
 	SetFontSize 42
 	MinimapIcon 1 Red Square
 	PlayEffect White
@@ -352,8 +352,8 @@ Show
 
 Show
 	BaseType "Silver Coin"
-	SetTextColor 189 0 210
-	SetBorderColor 189 0 210
+	SetTextColor 116 16 154
+	SetBorderColor 116 16 154
 	SetBackgroundColor 164 164 164
 	SetFontSize 42
 	MinimapIcon 2 Blue Diamond
