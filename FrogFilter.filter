@@ -189,7 +189,67 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Exalted Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Ancient Reliquary Key" "Mirror Shard" "Vial of the Ghost" "Vial of Sacrifice"
+	BaseType "Mortal Ignorance" "Mortal Rage" "Mortal Hope" "Mortal Grief"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
+	BaseType "Chayula's Breachstone" "Uul-Netol's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
+	BaseType "Offering to the Goddess"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
+	BaseType "Volkuur's Key" "Yriel's Key" "Inya's Key" "Eber's Key"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
+	BaseType "Divine Vessel"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
+	BaseType "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
+	BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -199,7 +259,128 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Exalted Shard" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Divine Vessel" "Blessing of" "Sacrificial Garb" "Divine Orb"  "Ancient Orb" "Vaal Temple" "Necromancy Net" "Thaumaturgical Net" "Harbinger's Orb"
+	BaseType "Exalted Orb"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Mirror of Kalandra"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Fishing Rod"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Albino Rhoa Feather"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Eternal Orb"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Mirror Shard"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Vial of the Ghost"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Vial of Sacrifice"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+
+Show
+	BaseType "Blessing of Chayula"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Exalted Shard"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Enlighten" "Empower" "Enhance"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Vaal Breach"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Blessing of" "Sacrificial Garb" "Divine Orb" "Ancient Orb" "Vaal Temple" "Necromancy Net" "Thaumaturgical Net" "Harbinger's Orb"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -308,7 +489,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Beauty Through Death" "The Queen" "The Iron Bard" "The Undisputed" "The Celestial Stone" "The Wolven King's Bite" "The Samurai's Eye" "The Mayor" "Immortal Resolve" "The Spark and the Flame" "Hunter's Reward" "The Immortal" "Mawr Blaidd" "The Fiend" "The Doctor" "House of Mirrors"
+	BaseType "House of Mirrors"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -319,7 +500,73 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Beauty Through Death" "The Price of Protection" "The Endless Darkness" "Boon of the First Ones" "The King's Heart" "The Last One Standing" "The Dreamer" "The Wind" "Bowyer's Dream" "The Valkyrie" "Pride Before the Fall" "Heterochromia" "The World Eater" "Wealth and Power" "The Thaumaturgist" "The Sephirot" "The Dragon's Heart" "The Saint's Treasure" "The Hale Heart" "The Professor" "The Wolf" "The Artist" "The Master" "Perfection" "The Vast" "The Undaunted" "Abandoned Wealth"
+	BaseType "The Doctor"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+
+Show
+	Class Divination Card
+	BaseType "The Fiend"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+
+Show
+	Class Divination Card
+	BaseType "Beauty Through Death"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+
+Show
+	Class Divination Card
+	BaseType "Immortal Resolve"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+
+Show
+	Class Divination Card
+	BaseType "The Immortal"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+
+Show
+	Class Divination Card
+	BaseType "The Wolven King's Bite" "Hunter's Reward" "Abandoned Wealth" "The Samurai's Eye" "The Dragon's Heart" "The Master" "The Iron Bard" "Pride Before the Fall" "The King's Heart" "The World Eater"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+
+Show
+	Class Divination Card
+	BaseType "The Celestial Stone" "The Price of Protection" "The Endless Darkness" "Boon of the First Ones" "The King's Heart" "The Last One Standing" "The Dreamer" "The Wind" "Bowyer's Dream" "The Valkyrie" "Pride Before the Fall" "Heterochromia" "The World Eater" "Wealth and Power" "The Thaumaturgist" "The Sephirot" "The Dragon's Heart" "The Saint's Treasure" "The Hale Heart" "The Professor" "The Wolf" "The Artist" "The Master" "Perfection" "The Vast" "The Undaunted" "Abandoned Wealth" "The Hoarder" "The Queen" "The Mayor" "The Spark and the Flame" "Mawr Blaidd"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -384,7 +631,15 @@ Show
 	SetBorderColor 255 0 0
 
 Show
-	LinkedSockets >= 5
+	LinkedSockets = 6
+	SetTextColor 0 255 0
+	SetBorderColor 128 0 255
+	SetBackgroundColor 255 255 255
+	SetFontSize 100
+	PlayEffect Yellow
+
+Show
+	LinkedSockets = 5
 	SetTextColor 0 255 0
 	SetBorderColor 128 0 255
 	SetFontSize 100
@@ -415,8 +670,16 @@ Show
 	SetBorderColor 255 0 200
 
 Show
-	BaseType "Ebony Tower Shield" "Sorcerer Boots" "Glorious Plate" "Rawhide Tower Shield" "Gold Amulet" "Imperial Bow"
+	Class Two
+	BaseType "Maelstr"
 	Rarity Normal
+	Corrupted False
+	SetBorderColor 255 255 0
+
+Show
+	BaseType "Ebony Tower Shield" "Sorcerer Boots" "Glorious Plate" "Rawhide Tower Shield" "Gold Amulet" "Imperial Bow" "Prophecy Wand"
+	Rarity Normal
+	Corrupted False
 	SetBorderColor 255 255 0
 
 Show
