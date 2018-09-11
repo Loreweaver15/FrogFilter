@@ -607,6 +607,7 @@ Show
 	PlayEffect Blue
 
 Show
+	Class Currency
 	BaseType "Prophecy"
 	SetTextColor 164 164 164
 	SetBorderColor 164 164 164
