@@ -170,6 +170,14 @@ Show
 	PlayEffect Brown
 
 Show
+	Identified True
+	HasExplicitMod "Veil"
+	SetBorderColor 61 220 160
+	SetTextColor 61 220 160
+	SetFontSize 42
+	PlayEffect Yellow
+
+Show
 	Class Divination Card
 	BaseType "The Enlightened"
 	SetTextColor 0 128 255
@@ -178,6 +186,39 @@ Show
 	PlayAlertSound 4 100
 	MinimapIcon 2 Blue Diamond
 	PlayEffect Blue
+
+Show
+	Class Map
+	Basetype "Gilded"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
+	Class Map
+	Basetype "Polished"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 Yellow Triangle
+	PlayEffect Yellow
+
+Show
+	Class Map
+	Basetype "Rusted"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 1 White Triangle
+	PlayEffect White
 
 Show
 	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur"
@@ -400,14 +441,14 @@ Show
 	MinimapIcon 1 Red Star
 	PlayEffect Red
 
-#Show
-#	BaseType "A Vision of Ice and Fire" "Fated Connections" "Trash to Treasure" "The Queen's Sacrifice"
-#	SetTextColor 189 0 210
-#	SetBorderColor 189 0 210
-#	SetBackgroundColor 164 164 164
-#	SetFontSize 42
-#	MinimapIcon 0 Red Star
-#	PlayEffect Blue
+Show
+	Prophecy "A Vision of Ice and Fire" "Fated Connections" "Trash to Treasure" "The Queen's Sacrifice" "The King's Path" "Darktongue's Shriek" "Wind and Thunder" "Monstrous Treasure" "Vaal Winds" "The Jeweller's Touch" "Twice Enchanted"
+	SetTextColor 189 0 210
+	SetBorderColor 189 0 210
+	SetBackgroundColor 164 164 164
+	SetFontSize 42
+	MinimapIcon 0 Red Star
+	PlayEffect Blue
 
 Show
 	Class Map
@@ -674,7 +715,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Wolven King's Bite" "Hunter's Reward" "Abandoned Wealth" "The Samurai's Eye" "The Master" "The Iron Bard" "Pride Before the Fall" "The King's Heart" "The World Eater" "The Mayor"
+	BaseType "The Wolven King's Bite" "Hunter's Reward" "Abandoned Wealth" "The Samurai's Eye" "The Master" "The Iron Bard" "Pride Before the Fall" "The King's Heart" "The World Eater" "The Mayor" "The Sacrifice" "The Life Thief" "The Nurse"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -685,7 +726,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Celestial Stone" "The Price of Protection" "The Endless Darkness" "Boon of the First Ones" "The Last One Standing" "The Dreamer" "The Wind" "Bowyer's Dream" "The Valkyrie" "Heterochromia" "Wealth and Power" "The Thaumaturgist" "The Sephirot" "The Dragon's Heart" "The Saint's Treasure" "The Hale Heart" "The Professor" "The Wolf" "The Artist" "The Master" "Perfection" "The Vast" "The Undaunted" "Abandoned Wealth" "The Hoarder" "The Queen" "Mawr Blaidd" "The Dragon's Heart" "The Hunger" "The Valley of Steel Boxes"
+	BaseType "The Celestial Stone" "The Price of Protection" "The Endless Darkness" "Boon of the First Ones" "The Last One Standing" "The Dreamer" "The Wind" "Bowyer's Dream" "The Valkyrie" "Heterochromia" "Wealth and Power" "The Thaumaturgist" "The Sephirot" "The Dragon's Heart" "The Saint's Treasure" "The Hale Heart" "The Professor" "The Wolf" "The Artist" "The Master" "Perfection" "The Vast" "The Undaunted" "Abandoned Wealth" "The Hoarder" "The Queen" "Mawr Blaidd" "The Dragon's Heart" "The Hunger" "The Valley of Steel Boxes" "The Endless Darkness"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -734,15 +775,6 @@ Show
 	SetFontSize 42
 	MinimapIcon 2 Blue Diamond
 	PlayEffect Blue
-
-#Show
-#	BaseType "The Great Mind of the North" "Cleanser of Sins" "The Great Leader of the North" "The Jeweller's Touch" "Vaal Winds" "A Dishonourable Death" "Darktongue's Shriek" "Monstrous Treasure" "The King's Path" "Wind and Thunder"
-#	SetTextColor 189 0 210
-#	SetBorderColor 189 0 210
-#	SetBackgroundColor 164 164 164
-#	SetFontSize 42
-#	MinimapIcon 2 Blue Diamond
-#	PlayEffect Blue
 
 Show
 	BaseType "Orb of Alteration"
