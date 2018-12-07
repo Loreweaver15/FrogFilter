@@ -189,7 +189,7 @@ Show
 
 Show
 	Class Map
-	Basetype "Gilded"
+	BaseType "Gilded"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -200,7 +200,7 @@ Show
 
 Show
 	Class Map
-	Basetype "Polished"
+	BaseType "Polished"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -211,7 +211,7 @@ Show
 
 Show
 	Class Map
-	Basetype "Rusted"
+	BaseType "Rusted"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
