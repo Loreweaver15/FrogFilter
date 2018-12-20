@@ -170,11 +170,28 @@ Show
 	PlayEffect Brown
 
 Show
+	Class Ring Amulet Belt Quiver Jewel
 	Identified True
 	HasExplicitMod "Veil"
 	SetBorderColor 61 220 160
 	SetTextColor 61 220 160
 	SetFontSize 42
+	PlayEffect Yellow
+
+Show
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
+	Identified True
+	HasExplicitMod "Veil"
+	SetBorderColor 61 220 160
+	SetTextColor 61 220 160
+	SetFontSize 42
+	PlayEffect Yellow
+
+Show
+	Identified True
+	HasExplicitMod "Veil"
+	SetBorderColor 61 220 160
+	SetTextColor 61 220 160
 	PlayEffect Yellow
 
 Show
@@ -423,7 +440,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Blessing of God"
+	BaseType "Blessing of God" "The Master Artisan"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetFontSize 42
@@ -745,11 +762,18 @@ Show
 	PlayEffect Blue
 
 Show
-	BaseType "Orb of Horizons" "Engineer's Orb" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring" "Chromatic Orb"
+	BaseType "Orb of Horizons" "Engineer's Orb" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring"
 	SetTextColor 0 255 128
 	SetBorderColor 128 128 255
 	SetFontSize 42
 	PlayAlertSound 4 100
+	PlayEffect Green
+
+Show
+	BaseType "Chromatic Orb"
+	SetTextColor 0 255 128
+	SetBorderColor 128 128 255
+	SetFontSize 42
 	PlayEffect Green
 
 Show
@@ -781,6 +805,11 @@ Show
 	SetTextColor 255 100 0
 	SetBorderColor 100 0 200
 	SetFontSize 42
+
+Show
+	BaseType "Perandus Coin"
+	SetTextColor 240 200 20
+	SetBorderColor 240 200 20
 
 Show
 	Class Currency
