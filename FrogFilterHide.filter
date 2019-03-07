@@ -1,8 +1,8 @@
-#Show
-#	BaseType "Leather Belt"
-#	Rarity Normal
-#	SetBorderColor 0 0 255
-#	SetFontSize 42
+Show
+	BaseType "Leather Belt"
+	Rarity Normal
+	SetBorderColor 0 0 255
+	SetFontSize 42
 
 Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
@@ -141,6 +141,26 @@ Show
 	SetFontSize 42
 	PlayEffect Green
 	MinimapIcon 2 Red Diamond
+
+Show
+	FracturedItem True
+	SetTextColor 255 255 255
+	SetBorderColor  255 255 255
+	SetBackgroundColor 128 128 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+
+Show
+	SynthesisedItem True
+	SetTextColor 255 255 255
+	SetBorderColor  255 255 255
+	SetBackgroundColor 128 128 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
 
 Show
 	BaseType "League" "Vial of" "Resonator" "Aberrant Fossil" "Aetheric Fossil" "Bloodstained Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Enchanted Fossil" "Encrusted Fossil" "Faceted Fossil" "Fractured Fossil" "Frigid Fossil" "Gilded Fossil" "Glyphic Fossil" "Hollow Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Perfect Fossil" "Prismatic Fossil" "Pristine Fossil" "Sanctified Fossil" "Scorched Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
@@ -732,7 +752,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Wolven King's Bite" "Hunter's Reward" "Abandoned Wealth" "The Samurai's Eye" "The Master" "The Iron Bard" "Pride Before the Fall" "The King's Heart" "The World Eater" "The Mayor" "The Sacrifice" "The Life Thief" "The Nurse"
+	BaseType "The Wolven King's Bite" "Hunter's Reward" "Abandoned Wealth" "The Samurai's Eye" "The Master" "The Iron Bard" "Pride Before the Fall" "The King's Heart" "The World Eater" "The Mayor" "The Sacrifice" "The Life Thief" "The Nurse" "Seven Years Bad Luck"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -743,7 +763,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Celestial Stone" "The Price of Protection" "The Endless Darkness" "Boon of the First Ones" "The Last One Standing" "The Dreamer" "The Wind" "Bowyer's Dream" "The Valkyrie" "Heterochromia" "Wealth and Power" "The Thaumaturgist" "The Sephirot" "The Dragon's Heart" "The Saint's Treasure" "The Hale Heart" "The Professor" "The Wolf" "The Artist" "The Master" "Perfection" "The Vast" "The Undaunted" "Abandoned Wealth" "The Hoarder" "The Queen" "Mawr Blaidd" "The Dragon's Heart" "The Hunger" "The Valley of Steel Boxes" "The Endless Darkness"
+	BaseType "The Celestial Stone" "The Price of Protection" "The Endless Darkness" "Boon of the First Ones" "The Last One Standing" "The Dreamer" "The Wind" "Bowyer's Dream" "The Valkyrie" "Heterochromia" "Wealth and Power" "The Thaumaturgist" "The Sephirot" "The Dragon's Heart" "The Saint's Treasure" "The Hale Heart" "The Professor" "The Wolf" "The Artist" "The Master" "Perfection" "The Vast" "The Undaunted" "Abandoned Wealth" "The Hoarder" "The Queen" "Mawr Blaidd" "The Dragon's Heart" "The Hunger" "The Valley of Steel Boxes" "The Endless Darkness" "Sambodhi's Vow" "The Landing" "Alone in the Darkness" "The Journey" "The Seeker" "The Mad King" "Arrogance of the Vaal"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
