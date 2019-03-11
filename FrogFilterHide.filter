@@ -143,11 +143,54 @@ Show
 	MinimapIcon 2 Red Diamond
 
 Show
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
 	FracturedItem True
 	SetTextColor 255 255 255
 	SetBorderColor  255 255 255
-	SetBackgroundColor 128 128 255
+	SetBackgroundColor 0 0 255
 	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	FracturedItem True
+	SetTextColor 255 255 255
+	SetBorderColor  255 255 255
+	SetBackgroundColor 0 0 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+
+Show
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
+	SynthesisedItem True
+	SetTextColor 255 255 255
+	SetBorderColor  255 255 255
+	SetBackgroundColor 0 0 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	SynthesisedItem True
+	SetTextColor 255 255 255
+	SetBorderColor  255 255 255
+	SetBackgroundColor 0 0 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+
+Show
+	FracturedItem True
+	SetTextColor 255 255 255
+	SetBorderColor  255 255 255
+	SetBackgroundColor 0 0 255
 	PlayAlertSound 4 100
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue
@@ -156,14 +199,21 @@ Show
 	SynthesisedItem True
 	SetTextColor 255 255 255
 	SetBorderColor  255 255 255
-	SetBackgroundColor 128 128 255
-	SetFontSize 42
+	SetBackgroundColor 0 0 255
 	PlayAlertSound 4 100
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue
 
 Show
-	BaseType "League" "Vial of" "Resonator" "Aberrant Fossil" "Aetheric Fossil" "Bloodstained Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Enchanted Fossil" "Encrusted Fossil" "Faceted Fossil" "Fractured Fossil" "Frigid Fossil" "Gilded Fossil" "Glyphic Fossil" "Hollow Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Perfect Fossil" "Prismatic Fossil" "Pristine Fossil" "Sanctified Fossil" "Scorched Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
+	BaseType "Bloodstained Fossil" "Faceted Fossil" "Fractured Fossil" "Glyphic Fossil" "Hollow Fossil" 
+	SetBorderColor 255 240 20
+	SetTextColor 255 240 20
+	SetBackgroundColor 255 0 0
+	SetFontSize 42
+	PlayEffect Green
+
+Show
+	BaseType "League" "Vial of" "Resonator" "Aberrant Fossil" "Aetheric Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Enchanted Fossil" "Encrusted Fossil" "Frigid Fossil" "Gilded Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Perfect Fossil" "Prismatic Fossil" "Pristine Fossil" "Sanctified Fossil" "Scorched Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
 	SetBorderColor 255 240 20
 	SetTextColor 255 240 20
 	SetFontSize 42
@@ -542,7 +592,7 @@ Show
 
 Show
 	Class Gem
-	BaseType "Portal" "Detonate Mines"
+	BaseType "Portal"
 	SetTextColor 0 255 128
 	SetBorderColor 0 255 128
 	SetFontSize 42
@@ -570,7 +620,7 @@ Show
 
 Show
 	Class Gem
-	BaseType "Vaal" "Added Chaos Damage"
+	BaseType "Vaal"
 	SetBorderColor 0 255 128
 
 Show
