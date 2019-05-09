@@ -1,10 +1,4 @@
 Show
-	BaseType "Leather Belt"
-	Rarity Normal
-	SetBorderColor 0 0 255
-	SetFontSize 42
-
-Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
 	ItemLevel >= 86
 	ShaperItem True
@@ -519,7 +513,7 @@ Show
 	PlayEffect Blue
 
 Show
-	BaseType "Blessing of" "Sacrificial Garb" "Divine Orb" "Ancient Orb" "Vaal Temple" "Necromancy Net" "Thaumaturgical Net" "Harbinger's Orb"
+	BaseType "Blessing of" "Sacrificial Garb" "Divine Orb" "Ancient Orb" "Vaal Temple" "Necromancy Net" "Orb of Annulment" "Thaumaturgical Net" "Harbinger's Orb"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -579,7 +573,7 @@ Show
 	PlayEffect White
 
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Orb of Annulment" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard"
+	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -932,12 +926,6 @@ Show
 Show
 	Class Two
 	BaseType "Maelstr"
-	Rarity Normal
-	Corrupted False
-	SetBorderColor 255 255 0
-
-Show
-	BaseType "Ebony Tower Shield" "Sorcerer Boots" "Glorious Plate" "Rawhide Tower Shield" "Gold Amulet" "Imperial Bow" "Prophecy Wand"
 	Rarity Normal
 	Corrupted False
 	SetBorderColor 255 255 0
@@ -1339,6 +1327,12 @@ Show
 Show
 	Rarity Rare
 	SetTextColor 200 155 0
+
+Show
+	BaseType "Sorcerer Boots" "Glorious Plate" "Agate Amulet" "Prophecy Wand" "Sadist Garb" "Stibnite Flask" "Leather Belt"
+	Rarity Normal
+	Corrupted False
+	SetBorderColor 255 255 0
 
 Show
 	SocketGroup RGB
