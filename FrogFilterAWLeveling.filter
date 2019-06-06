@@ -129,7 +129,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Splinter of"
+	BaseType "Splinter of" "Vaal Splinter" "Templar Splinter" "Eternal Empire Splinter" "Maraketh Splinter" "Karui Splinter"
 	SetBorderColor 245 35 98
 	SetTextColor 245 35 98
 	SetFontSize 42
@@ -137,6 +137,13 @@ Show
 	MinimapIcon 2 Red Diamond
 
 Show
+	BaseTyoe "Incubator"
+	Set BorderColor 200 155 200
+	SetTextColor 200 155 200
+	PlayEffect Blue
+	MinimapIcon 2 Blue Circle
+
+Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield"
 	FracturedItem True
 	SetTextColor 255 255 255
@@ -199,7 +206,7 @@ Show
 	PlayEffect Blue
 
 Show
-	BaseType "Bloodstained Fossil" "Faceted Fossil" "Fractured Fossil" "Glyphic Fossil" "Hollow Fossil" 
+	BaseType "Bloodstained Fossil" "Faceted Fossil" "Fractured Fossil" "Glyphic Fossil" "Hollow Fossil" "Sanctified Fossil"
 	SetBorderColor 255 240 20
 	SetTextColor 255 240 20
 	SetBackgroundColor 255 0 0
@@ -207,7 +214,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "League" "Vial of" "Resonator" "Aberrant Fossil" "Aetheric Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Enchanted Fossil" "Encrusted Fossil" "Frigid Fossil" "Gilded Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Perfect Fossil" "Prismatic Fossil" "Pristine Fossil" "Sanctified Fossil" "Scorched Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
+	BaseType "League" "Vial of" "Resonator" "Aberrant Fossil" "Aetheric Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Enchanted Fossil" "Encrusted Fossil" "Frigid Fossil" "Gilded Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Perfect Fossil" "Prismatic Fossil" "Pristine Fossil" "Scorched Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
 	SetBorderColor 255 240 20
 	SetTextColor 255 240 20
 	SetFontSize 42
@@ -322,7 +329,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Chayula's Breachstone" "Uul-Netol's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone"
+	BaseType "Chayula's Breachstone" "Uul-Netol's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Eternal Empire Emblem" "Timeless Vaal Emblem"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -504,6 +511,13 @@ Show
 
 Show
 	Class Divination Card
+	BaseType "Vanity" "Imperial Legacy" "Burning Blood" "The Primordial" "Echoes of Love" "Thirst for Knowledge" "Alluring Bounty" "The Fool" "Pride of the First Ones" "The Deep Ones" "The Archmage's Right Hand" "Dark Dreams" "Buried Treasure" "Demigod's Wager"
+	SetTextColor 138 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 20 75 20
+
+Show
+	Class Divination Card
 	BaseType "Blessing of God" "The Master Artisan"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
@@ -587,12 +601,19 @@ Show
 Show
 	Class Gem
 	BaseType "Portal"
-	SetTextColor 0 255 128
 	SetBorderColor 0 255 128
-	SetFontSize 42
 	SetBackgroundColor 116 16 154
 	PlayAlertSound 8 100
 	PlayEffect Green
+
+Show
+	Class Gem
+	GemLevel > 20
+	SetBorderColor 0 255 128
+	SetBackgroundColor 116 16 154
+	SetFontSize 42
+	PlayEffect Green
+	Minimap Icon 0 Green Circle
 
 Show
 	Class Gem
@@ -600,6 +621,8 @@ Show
 	SetBorderColor 0 255 128
 	SetBackgroundColor 116 16 154
 	SetFontSize 42
+	PlayEffect Green
+	MinimapIcon 1 Green Circle
 
 Show
 	Class Gem Flask
@@ -1244,6 +1267,8 @@ Show
 	SetTextColor 200 155 0
 	SetFontSize 42
 
+
+
 Show
 	Class Body Helm Boot Shield
 	Rarity Rare
@@ -1329,10 +1354,27 @@ Show
 	SetTextColor 200 155 0
 
 Show
-	BaseType "Sorcerer Boots" "Glorious Plate" "Agate Amulet" "Prophecy Wand" "Sadist Garb" "Stibnite Flask" "Leather Belt"
+	BaseType "Sorcerer Boots" "Glorious Plate" "Agate Amulet" "Prophecy Wand" "Sadist Garb" "Stibnite Flask"
 	Rarity Normal
 	Corrupted False
 	SetBorderColor 255 255 0
+
+####Show
+####	BaseType "Leather Belt"
+####	Rarity Normal
+####	Corrupted False
+####	SetBorderColor 255 255 0
+	
+Show
+	BaseType "Gavel"
+	ItemLevel <= 84
+	Rarity Normal Magic
+	SetBorderColor 255 128 12
+
+Show
+	BaseTypen "Stone Hammer" "Rock Breaker"
+	Rarity Normal Magic
+	SetBorderColor 255 128 12
 
 Show
 	SocketGroup RGB
