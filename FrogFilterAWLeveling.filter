@@ -137,7 +137,7 @@ Show
 	MinimapIcon 2 Red Diamond
 
 Show
-	BaseTyoe "Incubator"
+	BaseType "Incubator"
 	Set BorderColor 200 155 200
 	SetTextColor 200 155 200
 	PlayEffect Blue
@@ -329,7 +329,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Chayula's Breachstone" "Uul-Netol's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Eternal Empire Emblem" "Timeless Vaal Emblem"
+	BaseType "Chayula's Breachstone" "Uul-Netol's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Eternal Emblem" "Timeless Vaal Emblem"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
