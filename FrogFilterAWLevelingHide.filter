@@ -138,7 +138,7 @@ Show
 
 Show
 	BaseType "Incubator"
-	Set BorderColor 200 155 200
+	SetBorderColor 200 155 200
 	SetTextColor 200 155 200
 	PlayEffect Blue
 	MinimapIcon 2 Blue Circle
@@ -613,7 +613,7 @@ Show
 	SetBackgroundColor 116 16 154
 	SetFontSize 42
 	PlayEffect Green
-	Minimap Icon 0 Green Circle
+	MinimapIcon 0 Green Circle
 
 Show
 	Class Gem
@@ -1372,7 +1372,7 @@ Show
 	SetBorderColor 255 128 12
 
 Show
-	BaseTypen "Stone Hammer" "Rock Breaker"
+	BaseType "Stone Hammer" "Rock Breaker"
 	Rarity Normal Magic
 	SetBorderColor 255 128 12
 
@@ -1389,20 +1389,6 @@ Show
 	Class Armour Gloves Helmet Shield Bow One Two Boots
 	Quality = 20
 	SetBorderColor 0 0 255
-
-Show
-	Class Gem
-
-Show
-	Class Flask
-	SetTextColor 255 0 119
-
-Show
-	Class One Two Staves Daggers Maces Sceptres Claws
-	Rarity Magic
-	Identified True
-	SetTextColor 255 0 255
-	SetBorderColor 255 0 255
 
 Show
 	Class Bow Wand
