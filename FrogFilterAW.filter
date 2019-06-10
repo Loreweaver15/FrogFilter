@@ -65,6 +65,17 @@ Show
 	PlayEffect Yellow
 
 Show
+	BaseType "Ornate Quiver"
+	Rarity Normal Magic Rare
+	SetBorderColor 255 100 150
+	SetBackgroundColor 255 255 255
+	SetTextColor 105 25 25
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
 	ItemLevel >= 86
 	SetBorderColor 255 100 150
@@ -140,6 +151,7 @@ Show
 	BaseType "Incubator"
 	SetBorderColor 200 155 200
 	SetTextColor 200 155 200
+	SetFontSize 42
 	PlayEffect Blue
 	MinimapIcon 2 Blue Circle
 
@@ -511,10 +523,11 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Vanity" "Imperial Legacy" "Burning Blood" "The Primordial" "Echoes of Love" "Thirst for Knowledge" "Alluring Bounty" "The Fool" "Pride of the First Ones" "The Deep Ones" "The Archmage's Right Hand" "Dark Dreams" "Buried Treasure" "Demigod's Wager"
+	BaseType "Vanity" "Imperial Legacy" "The Primordial" "Echoes of Love" "Thirst for Knowledge""The Fool" "The Deep Ones" "The Archmage's Right Hand" "Dark Dreams" "Demigod's Wager"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
+	SetFontSize 42
 
 Show
 	Class Divination Card
@@ -537,12 +550,21 @@ Show
 	PlayEffect Red
 
 Show
-	Prophecy "A Vision of Ice and Fire" "Fated Connections" "Trash to Treasure" "The Queen's Sacrifice" "The King's Path" "Darktongue's Shriek" "Wind and Thunder" "Monstrous Treasure" "Vaal Winds" "The Jeweller's Touch" "Twice Enchanted"
+	Prophecy "The Queen's Sacrifice" "Trash to Treasure" "Fated Connections"
 	SetTextColor 189 0 210
 	SetBorderColor 189 0 210
 	SetBackgroundColor 164 164 164
 	SetFontSize 42
 	MinimapIcon 0 Red Star
+	PlayEffect Blue
+
+Show
+	Prophecy "Darktongue's Shriek" "Monstrous Treasure" "The King's Path" "A Master Seeks Help" "Wind and Thunder" "The Jeweller's Touch" "Twice Enchanted" "Flesh of the Beast"
+	SetTextColor 189 0 210
+	SetBorderColor 189 0 210
+	SetBackgroundColor 164 164 164
+	SetFontSize 42
+	MinimapIcon 1 Blue Star
 	PlayEffect Blue
 
 Show
@@ -742,95 +764,18 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "The World Eater" "Pride of the First Ones" "The Life Thief" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Mayor" "The Celestial Stone" "Buried Treasure" "The Vast"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
 	SetFontSize 42
 	PlayAlertSound 4 100
-	MinimapIcon 0 Blue Diamond
+	MinimapIcon 0 Blue Star
 	PlayEffect Blue
 
 Show
 	Class Divination Card
-	BaseType "The Doctor"
-	SetTextColor 0 128 255
-	SetBorderColor 128 128 255
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 4 100
-	MinimapIcon 0 Blue Diamond
-	PlayEffect Blue
-
-Show
-	Class Divination Card
-	BaseType "The Fiend"
-	SetTextColor 0 128 255
-	SetBorderColor 128 128 255
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 4 100
-	MinimapIcon 0 Blue Diamond
-	PlayEffect Blue
-
-Show
-	Class Divination Card
-	BaseType "Beauty Through Death"
-	SetTextColor 0 128 255
-	SetBorderColor 128 128 255
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 4 100
-	MinimapIcon 0 Blue Diamond
-	PlayEffect Blue
-
-Show
-	Class Divination Card
-	BaseType "Immortal Resolve"
-	SetTextColor 0 128 255
-	SetBorderColor 128 128 255
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 4 100
-	MinimapIcon 0 Blue Diamond
-	PlayEffect Blue
-
-Show
-	Class Divination Card
-	BaseType "The Immortal"
-	SetTextColor 0 128 255
-	SetBorderColor 128 128 255
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 4 100
-	MinimapIcon 0 Blue Diamond
-	PlayEffect Blue
-
-Show
-	Class Divination Card
-	BaseType "The Spark and the Flame"
-	SetTextColor 0 128 255
-	SetBorderColor 128 128 255
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 4 100
-	MinimapIcon 0 Blue Diamond
-	PlayEffect Blue
-
-Show
-	Class Divination Card
-	BaseType "The Wolven King's Bite" "Hunter's Reward" "Abandoned Wealth" "The Samurai's Eye" "The Master" "The Iron Bard" "Pride Before the Fall" "The King's Heart" "The World Eater" "The Mayor" "The Sacrifice" "The Life Thief" "The Nurse" "Seven Years Bad Luck"
-	SetTextColor 0 128 255
-	SetBorderColor 128 128 255
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 4 100
-	MinimapIcon 0 Blue Diamond
-	PlayEffect Blue
-
-Show
-	Class Divination Card
-	BaseType "The Celestial Stone" "The Price of Protection" "The Endless Darkness" "Boon of the First Ones" "The Last One Standing" "The Dreamer" "The Wind" "Bowyer's Dream" "The Valkyrie" "Heterochromia" "Wealth and Power" "The Thaumaturgist" "The Sephirot" "The Dragon's Heart" "The Saint's Treasure" "The Hale Heart" "The Professor" "The Wolf" "The Artist" "The Master" "Perfection" "The Vast" "The Undaunted" "Abandoned Wealth" "The Hoarder" "The Queen" "Mawr Blaidd" "The Dragon's Heart" "The Hunger" "The Valley of Steel Boxes" "The Endless Darkness" "Sambodhi's Vow" "The Landing" "Alone in the Darkness" "The Journey" "The Seeker" "The Mad King" "Arrogance of the Vaal"
+	BaseType "Immortal Resolve" "The Last One Standing" "The Undisputed" "Burning Blood" "The Dragon's Heart" "The Wolven King's Bite" "Pride Before the Fall" "The King's Heart" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Samurai's Eye" "The Queen" "Arrogance of the Vaal"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -1354,7 +1299,7 @@ Show
 	SetTextColor 200 155 0
 
 Show
-	BaseType "Sorcerer Boots" "Glorious Plate" "Agate Amulet" "Prophecy Wand" "Sadist Garb" "Stibnite Flask"
+	BaseType "Sorcerer Boots" "Glorious Plate" "Prophecy Wand" "Sadist Garb" "Stibnite Flask" "Nightmare Bascinet" "Ebony Tower Shield" "Fiend Dagger"
 	Rarity Normal
 	Corrupted False
 	SetBorderColor 255 255 0
@@ -1368,12 +1313,27 @@ Show
 Show
 	BaseType "Gavel"
 	ItemLevel <= 84
-	Rarity Normal Magic
+	Quality = 20
+	Rarity Normal
+	SetBorderColor 255 128 12
+	SetFontSize 42
+
+Show
+	BaseType "Gavel"
+	ItemLevel <= 84
+	Quality = 20
+	Rarity Normal
+	SetBorderColor 255 128 12
+	SetFontSize 42
+
+Show
+	BaseType "Stone Hammer" "Rock Breaker"
+	Rarity Normal
 	SetBorderColor 255 128 12
 
 Show
 	BaseType "Stone Hammer" "Rock Breaker"
-	Rarity Normal Magic
+	Rarity Normal
 	SetBorderColor 255 128 12
 
 Show
