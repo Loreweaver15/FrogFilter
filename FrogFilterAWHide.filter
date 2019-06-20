@@ -506,9 +506,9 @@ Show
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
-	SetBackgroundColor 255 255 255
+	SetBackgroundColor 0 255 0
 	PlayAlertSound 8 100
-	MinimapIcon 1 Red Star
+	MinimapIcon 2 Green Star
 	PlayEffect Red
 
 Show
@@ -516,9 +516,9 @@ Show
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
-	SetBackgroundColor 255 255 255
+	SetBackgroundColor 0 255 0
 	PlayAlertSound 8 100
-	MinimapIcon 1 Red Star
+	MinimapIcon 0 Green Star
 	PlayEffect Red
 
 Show
@@ -623,37 +623,42 @@ Show
 Show
 	Class Gem
 	BaseType "Portal"
-	SetBorderColor 0 255 128
-	SetBackgroundColor 116 16 154
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetBackgroundColor 0 255 0
 	PlayAlertSound 8 100
 	PlayEffect Green
 
 Show
 	Class Gem
 	GemLevel > 20
-	SetBorderColor 0 255 128
-	SetBackgroundColor 116 16 154
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetBackgroundColor 0 255 0
 	SetFontSize 42
 	PlayEffect Green
-	MinimapIcon 0 Green Circle
+	MinimapIcon 0 Green Star
 
 Show
 	Class Gem
 	Quality > 20
-	SetBorderColor 0 255 128
-	SetBackgroundColor 116 16 154
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetBackgroundColor 0 255 0
 	SetFontSize 42
 	PlayEffect Green
-	MinimapIcon 1 Green Circle
+	MinimapIcon 1 Green Star
 
 Show
 	Class Gem Flask
+	Rarity Normal
 	Quality = 20
 	SetBorderColor 0 255 128
 	SetFontSize 42
 
 Show
 	Class Gem Flask
+	Rarity Normal
 	Quality > 0
 	SetBorderColor 0 255 128
 
@@ -849,12 +854,8 @@ Show
 	SetBorderColor 100 0 200
 
 Show
-	BaseType "Quicksilver Flask" "Jade Flask" "Basalt Flask" "Stibnite Flask" "Sulphur Flask" "Bismuth Flask" "Silver Flask" "Ruby Flask" "Topaz Flask" "Amethyst Flask" "Sapphire Flask" "Aquamarine Flask" "Diamond Flask" "Granite Flask" "Quartz Flask" 
-	SetBorderColor 255 0 0
-
-Show
 	LinkedSockets = 6
-	SetTextColor 0 255 0
+	SetTextColor 0 155 0
 	SetBorderColor 128 0 255
 	SetBackgroundColor 255 255 255
 	SetFontSize 100
@@ -862,7 +863,7 @@ Show
 
 Show
 	LinkedSockets = 5
-	SetTextColor 0 255 0
+	SetTextColor 0 155 0
 	SetBorderColor 128 0 255
 	SetFontSize 100
 	PlayEffect Yellow
@@ -1299,7 +1300,22 @@ Show
 	SetTextColor 200 155 0
 
 Show
-	BaseType "Sorcerer Boots" "Glorious Plate" "Prophecy Wand" "Sadist Garb" "Stibnite Flask" "Nightmare Bascinet" "Ebony Tower Shield" "Fiend Dagger"
+####Skyforth:
+	BaseType "Sorcerer Boots"
+####Kaom's Heart:
+	BaseType "Glorious Plate"
+####Void Battery:
+	BaseType "Prophecy Wand"
+####Inpulsa's Broken Heart:
+	BaseType "Sadist Garb"
+####Sin's Rebirth:
+	BaseType "Stibnite Flask"
+####Devoto's Devotion:
+	BaseType "Nightmare Bascinet"
+####Arakaali's Fang:
+	BaseType "Fiend Dagger"
+####Kitava's Feast:
+	BaseType "Void Axe"
 	Rarity Normal
 	Corrupted False
 	SetBorderColor 255 255 0
@@ -1335,6 +1351,10 @@ Show
 	BaseType "Stone Hammer" "Rock Breaker"
 	Rarity Normal
 	SetBorderColor 255 128 12
+
+Show
+	BaseType "Quicksilver Flask" "Jade Flask" "Basalt Flask" "Stibnite Flask" "Sulphur Flask" "Bismuth Flask" "Silver Flask" "Ruby Flask" "Topaz Flask" "Amethyst Flask" "Sapphire Flask" "Aquamarine Flask" "Diamond Flask" "Granite Flask" "Quartz Flask" 
+	SetBorderColor 255 0 0
 
 Show
 	SocketGroup RGB
