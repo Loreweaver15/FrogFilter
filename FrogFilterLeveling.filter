@@ -143,7 +143,7 @@ Show
 	BaseType "Splinter of" "Vaal Splinter" "Templar Splinter" "Eternal Empire Splinter" "Maraketh Splinter" "Karui Splinter"
 	SetTextColor 255 255 255
 	SetBorderColor 128 0 255
-	SetBackgroundColor 255 55 155
+	SetBackgroundColor 245 35 98
 	SetFontSize 42
 	PlayEffect Green
 	MinimapIcon 2 Red Diamond
