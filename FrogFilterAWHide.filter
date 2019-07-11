@@ -134,15 +134,16 @@ Show
 
 Show
 	BaseType "Talisman"
-	SetBorderColor 61 220 160
-	SetTextColor 61 220 160
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
 	SetFontSize 42
-	PlayEffect Yellow
+	PlayEffect Green
 
 Show
 	BaseType "Splinter of" "Vaal Splinter" "Templar Splinter" "Eternal Empire Splinter" "Maraketh Splinter" "Karui Splinter"
-	SetBorderColor 245 35 98
-	SetTextColor 245 35 98
+	SetTextColor 255 255 255
+	SetBorderColor 128 0 255
+	SetBackgroundColor 255 55 155
 	SetFontSize 42
 	PlayEffect Green
 	MinimapIcon 2 Red Diamond
@@ -260,6 +261,7 @@ Show
 	SetTextColor 61 220 160
 	SetFontSize 42
 	PlayEffect Yellow
+	MinimapIcon 1 Green Circle
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
@@ -269,6 +271,7 @@ Show
 	SetTextColor 61 220 160
 	SetFontSize 42
 	PlayEffect Yellow
+	MinimapIcon 1 Green Circle
 
 Show
 	Identified True
@@ -276,6 +279,7 @@ Show
 	SetBorderColor 61 220 160
 	SetTextColor 61 220 160
 	PlayEffect Yellow
+	MinimapIcon 1 Green Circle
 
 Show
 	Class Divination Card
@@ -609,11 +613,20 @@ Show
 	PlayEffect White
 
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Stacked Deck" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard"
+	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
 	PlayEffect Green
+
+Show
+	BaseType "Stacked Deck"
+	SetBorderColor 255 25 0
+	SetTextColor 155 255 0
+	SetFontSize 42
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
 
 Show
 	BaseType "Chaos Shard" "Alchemy Shard" "Regal Shard" "Jeweller's Orb" "Binding Shard"
@@ -668,6 +681,21 @@ Show
 	SetBorderColor 0 255 128
 
 Show
+	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" 
+	AnyEnchantment True
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+	SetFontSize 42
+	PlayEffect Green
+	MinimapIcon 2 Yellow Circle
+
+Show 
+	Rarity Normal Magic Rare
+	AnyEnchantment True
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+
+Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
 	Quality > 20
 	ItemLevel >= 86
@@ -711,7 +739,6 @@ Show
 	Quality > 20
 	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
-	SetFontSize 42
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
@@ -811,7 +838,6 @@ Show
 	SetTextColor 0 255 128
 	SetBorderColor 128 128 255
 	SetFontSize 42
-	PlayEffect Green
 
 Show
 	BaseType "Engineer's Shard" "Horizon Shard" "Armourer's Scrap" "Blacksmith's Whetstone"
@@ -855,9 +881,9 @@ Show
 
 Show
 	LinkedSockets = 6
-	SetTextColor 0 155 0
+	SetTextColor 255 255 255
 	SetBorderColor 128 0 255
-	SetBackgroundColor 255 255 255
+	SetBackgroundColor 255 55 55
 	SetFontSize 100
 	PlayEffect Yellow
 
@@ -883,13 +909,13 @@ Show
 Show
 	Class Ring
 	ItemLevel >= 85
-	Rarity Normal
+	Rarity Normal Magic
 	SetBorderColor 255 0 200
 
 Show
 	Class Amulet Belt Quiver
 	ItemLevel >= 86
-	Rarity Normal
+	Rarity Normal Magic
 	SetBorderColor 255 0 200
 
 Show
@@ -1142,19 +1168,19 @@ Show
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
 	ItemLevel >= 86
-	Rarity Normal
+	Rarity Normal Magic
 	SetBorderColor 255 0 200
 
 Show
 	BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Sambar Sceptre" "Void Sceptre"
 	ItemLevel >= 85
-	Rarity Normal
+	Rarity Normal Magic
 	SetBorderColor 255 0 200
 
 Show
 	BaseType "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand"
 	ItemLevel >= 84
-	Rarity Normal
+	Rarity Normal Magic
 	SetBorderColor 255 0 200
 
 Show
@@ -1276,11 +1302,13 @@ Show
 Show
 	ElderItem True
 	SetTextColor 49 179 185
+	SetBorderColor 49 179 185
 	PlayAlertSound 11 100
 
 Show
 	ShaperItem True
 	SetTextColor 220 14 70
+	SetBorderColor 220 14 70
 	PlayAlertSound 11 100
 
 Show
