@@ -1,4 +1,40 @@
 Show
+	Identified True
+	HasExplicitMod "Catarina's Veil"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayEffect Yellow
+	MinimapIcon 0 Red Star
+
+Show
+	Identified True
+	HasExplicitMod "Elreon's Veil" "Aisling's Veil" "Cameria's Veil" "Gravicius' Veil" "Guff's Veil" "Haku's Veil" "Hillock's Veil" "It That Fled's Veil" "Janus' Veil" "Korell's Veil" "Leo's Veil" "Riker's Veil" "Rin's Veil" "Jorgin's Veil" "Tora's Veil" "Vagan's Veil" "Vorici's Veil"
+	SetBorderColor 0 255 0
+	SetTextColor 61 220 160
+	SetFontSize 42
+	PlayEffect Yellow
+	MinimapIcon 0 Green Circle
+
+Show
+	Identified True
+	HasExplicitMod "Veil"
+	ItemLevel >= 81
+	SetBorderColor 255 0 0
+	SetTextColor 61 220 160
+	PlayEffect Yellow
+	MinimapIcon 1 Green Circle
+
+Show
+	Identified True
+	HasExplicitMod "Veil"
+	SetBorderColor 61 220 160
+	SetTextColor 61 220 160
+	PlayEffect Yellow
+	MinimapIcon 2 Green Circle
+
+Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
 	ItemLevel >= 86
 	ShaperItem True
@@ -11,7 +47,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring"
 	ItemLevel >= 85
 	ShaperItem True
 	SetBorderColor 255 0 119
@@ -22,6 +58,17 @@ Show
 	MinimapIcon 0 Yellow Circle
 	PlayEffect Red
 
+Show
+	BaseType "Convoking Wand"
+	ItemLevel >= 84
+	ShaperItem True
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
 Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
 	ItemLevel >= 86
@@ -35,7 +82,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring"
 	ItemLevel >= 85
 	ElderItem True
 	SetBorderColor 255 0 119
@@ -47,7 +94,19 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Convoking Wand"
+	ItemLevel >= 84
+	ElderItem True
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
+
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
 	ElderItem True
 	SetBorderColor 255 0 119
 	SetTextColor 49 179 185
@@ -56,7 +115,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
 	ShaperItem True
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -87,7 +146,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring"
 	ItemLevel >= 85
 	SetBorderColor 255 100 150
 	SetBackgroundColor 255 255 255
@@ -98,19 +157,30 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Convoking Wand
+	ItemLevel >= 84
+	SetBorderColor 255 100 150
+	SetBackgroundColor 255 255 255
+	SetTextColor 105 25 25
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand
 	Rarity Normal
 	SetBorderColor 255 100 150
 	SetFontSize 42
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
 	Rarity Magic
 	SetBorderColor 255 100 150
 	SetFontSize 42
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
 	Rarity Rare
 	SetBorderColor 255 100 150
 	SetTextColor 200 155 0
@@ -141,15 +211,25 @@ Show
 
 Show
 	BaseType "Splinter of" "Vaal Splinter" "Templar Splinter" "Eternal Empire Splinter" "Maraketh Splinter" "Karui Splinter"
-	SetTextColor 255 255 255
+	SetTextColor 155 255 255
 	SetBorderColor 128 0 255
-	SetBackgroundColor 245 35 98
+	SetBackgroundColor 145 35 98
 	SetFontSize 42
 	PlayEffect Green
 	MinimapIcon 2 Red Diamond
 
 Show
-	BaseType "Incubator"
+	BaseType "Geomancer's Incubator" "Time-Lost Incubator"
+	SetTextColor 191 28 253
+	SetBorderColor 191 28 253
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	PlayEffect Blue
+	MinimapIcon 0 Blue Star
+
+Show
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Opalescent Oil" "Silver Oil" "Golden Oil"
 	SetBorderColor 200 155 200
 	SetTextColor 200 155 200
 	SetFontSize 42
@@ -254,34 +334,6 @@ Show
 	PlayEffect Brown
 
 Show
-	Class Ring Amulet Belt Quiver Jewel
-	Identified True
-	HasExplicitMod "Veil"
-	SetBorderColor 61 220 160
-	SetTextColor 61 220 160
-	SetFontSize 42
-	PlayEffect Yellow
-	MinimapIcon 1 Green Circle
-
-Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
-	Identified True
-	HasExplicitMod "Veil"
-	SetBorderColor 61 220 160
-	SetTextColor 61 220 160
-	SetFontSize 42
-	PlayEffect Yellow
-	MinimapIcon 1 Green Circle
-
-Show
-	Identified True
-	HasExplicitMod "Veil"
-	SetBorderColor 61 220 160
-	SetTextColor 61 220 160
-	PlayEffect Yellow
-	MinimapIcon 1 Green Circle
-
-Show
 	Class Divination Card
 	BaseType "The Enlightened"
 	SetTextColor 0 128 255
@@ -293,11 +345,21 @@ Show
 
 Show
 	Class Map
-	BaseType "Gilded"
+	BaseType "Gilded Sulphite" "Polished Sulphite" "Rusted Sulphite" "Gilded Bestiary" "Polished Bestiary" "Gilded Divination" "Gilded Harbinger" "Rusted Bestiary" "Gilded Cartography"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
 	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	Class Map
+	BaseType "Gilded"
+	SetTextColor 195 195 195
+	SetBorderColor 255 0 0
+	SetFontSize 42
 	PlayAlertSound 8 100
 	MinimapIcon 1 Red Triangle
 	PlayEffect Red
@@ -305,10 +367,9 @@ Show
 Show
 	Class Map
 	BaseType "Polished"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
+	SetTextColor 195 195 195
+	SetBorderColor 255 240 20
 	SetFontSize 42
-	SetBackgroundColor 255 255 255
 	PlayAlertSound 8 100
 	MinimapIcon 1 Yellow Triangle
 	PlayEffect Yellow
@@ -316,10 +377,9 @@ Show
 Show
 	Class Map
 	BaseType "Rusted"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
+	SetTextColor 195 195 195
+	SetBorderColor 255 255 255
 	SetFontSize 42
-	SetBackgroundColor 255 255 255
 	PlayAlertSound 8 100
 	MinimapIcon 1 White Triangle
 	PlayEffect White
@@ -385,14 +445,22 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
-	SetTextColor 105 25 25
+	BaseType "Sacrifice at Midnight"
+	SetTextColor 195 195 195
 	SetBorderColor 255 0 0
 	SetFontSize 42
-	SetBackgroundColor 255 255 255
 	PlayAlertSound 8 100
 	MinimapIcon 1 Red Triangle
 	PlayEffect Red
+
+Show
+	BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
+	SetTextColor 195 195 195
+	SetBorderColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 1 White Triangle
+	PlayEffect White
 
 Show
 	BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key"
@@ -527,7 +595,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Vanity" "Imperial Legacy" "The Primordial" "Echoes of Love" "Thirst for Knowledge""The Fool" "The Deep Ones" "The Archmage's Right Hand" "Dark Dreams" "Demigod's Wager"
+	BaseType "Akil's Prophecy" "Asyran's Reward" "The Bargain" "The Deal" "The Heroic Shot" "More is Never Enough" "The Mountain" "The Price of Loyalty" "The Side Quest" "The Skeleton" "Vile Power" "Void of the Elements" "The Wolf's Legacy"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -644,10 +712,10 @@ Show
 
 Show
 	Class Gem
-	GemLevel > 20
+	GemLevel >= 20
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
-	SetBackgroundColor 0 255 0
+	SetBackgroundColor 0 185 0
 	SetFontSize 42
 	PlayEffect Green
 	MinimapIcon 0 Green Star
@@ -657,7 +725,7 @@ Show
 	Quality > 20
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
-	SetBackgroundColor 0 255 0
+	SetBackgroundColor 0 185 0
 	SetFontSize 42
 	PlayEffect Green
 	MinimapIcon 1 Green Star
@@ -786,7 +854,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Wolf's Shadow"
+	BaseType "The Wolf's Shadow" "The Demoness"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetFontSize 42
@@ -796,7 +864,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "The World Eater" "Pride of the First Ones" "The Life Thief" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Mayor" "The Celestial Stone" "Buried Treasure" "The Vast"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "The World Eater" "Pride of the First Ones" "The Life Thief" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Mayor" "The Celestial Stone" "Buried Treasure" "The Vast" "The Wolven King's Bite" "The Damned" "The Demon"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -807,7 +875,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Immortal Resolve" "The Last One Standing" "The Undisputed" "Burning Blood" "The Dragon's Heart" "The Wolven King's Bite" "Pride Before the Fall" "The King's Heart" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Samurai's Eye" "The Queen" "Arrogance of the Vaal"
+	BaseType "Immortal Resolve" "The Last One Standing" "The Undisputed" "Burning Blood" "The Dragon's Heart" "Pride Before the Fall" "The King's Heart" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Samurai's Eye" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Deep Ones" "Dark Dreams" "The Eye of Terror" "Nook's Crown" "The Old Man" "Remembrance"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -871,8 +939,9 @@ Show
 
 Show
 	BaseType "Perandus Coin"
-	SetTextColor 240 200 20
+	SetBackgroundColor 240 200 20
 	SetBorderColor 240 200 20
+	SetTextColor 0 0 0
 
 Show
 	Class Currency
@@ -953,8 +1022,14 @@ Show
 Show
 	Class Jewel
 	Rarity Magic
+	ItemLevel >= 60
+	SetBorderColor 255 0 119
 	SetFontSize 42
-	SetBorderColor 133 133 250
+
+Show
+	Class Jewel
+	Rarity Magic
+	SetFontSize 42
 
 Show
 	Class Ring Jewel
