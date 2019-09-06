@@ -595,7 +595,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Akil's Prophecy" "Asyran's Reward" "The Bargain" "The Deal" "The Heroic Shot" "More is Never Enough" "The Mountain" "The Price of Loyalty" "The Side Quest" "The Skeleton" "Vile Power" "Void of the Elements" "The Wolf's Legacy"
+	BaseType "Akil's Prophecy" "Azyran's Reward" "The Bargain" "The Deal" "The Heroic Shot" "More is Never Enough" "The Mountain" "The Price of Loyalty" "The Side Quest" "The Skeleton" "Vile Power" "Void of the Elements" "The Wolf's Legacy"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
