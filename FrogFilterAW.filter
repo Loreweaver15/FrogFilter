@@ -37,7 +37,7 @@ Show
 Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
 	ItemLevel >= 86
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetBackgroundColor 255 255 255
@@ -49,7 +49,7 @@ Show
 Show
 	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring"
 	ItemLevel >= 85
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetBackgroundColor 255 255 255
@@ -61,42 +61,7 @@ Show
 Show
 	BaseType "Convoking Wand"
 	ItemLevel >= 84
-	ShaperItem True
-	SetBorderColor 255 0 119
-	SetTextColor 220 14 70
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 8 100
-	MinimapIcon 0 Yellow Circle
-	PlayEffect Red
-Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
-	ItemLevel >= 86
-	ElderItem True
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 8 100
-	MinimapIcon 0 Yellow Circle
-	PlayEffect Red
-
-Show
-	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring"
-	ItemLevel >= 85
-	ElderItem True
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 8 100
-	MinimapIcon 0 Yellow Circle
-	PlayEffect Red
-
-Show
-	BaseType "Convoking Wand"
-	ItemLevel >= 84
-	ElderItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetBackgroundColor 255 255 255
@@ -107,16 +72,7 @@ Show
 
 Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
-	ElderItem True
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
-	SetFontSize 42
-	MinimapIcon 2 Yellow Circle
-	PlayEffect Yellow
-
-Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetFontSize 42
@@ -157,7 +113,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Convoking Wand
+	BaseType "Convoking Wand"
 	ItemLevel >= 84
 	SetBorderColor 255 100 150
 	SetBackgroundColor 255 255 255
@@ -187,22 +143,6 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Delirium" "Essence of Horror"
-	SetTextColor 191 28 253
-	SetBorderColor 191 28 253
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	PlayEffect Green
-
-Show
-	BaseType "Remnant of Corruption" "Essence of"
-	SetTextColor 191 28 253
-	SetBorderColor 191 28 253
-	SetFontSize 42
-	PlayEffect Green
-
-Show
 	BaseType "Talisman"
 	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
@@ -229,9 +169,18 @@ Show
 	MinimapIcon 0 Blue Star
 
 Show
-	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Opalescent Oil" "Silver Oil" "Golden Oil"
-	SetBorderColor 200 155 200
-	SetTextColor 200 155 200
+	BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Delirium" "Essence of Horror"
+	SetTextColor 191 28 253
+	SetBorderColor 191 28 253
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	PlayEffect Green
+
+Show
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Sample" "Catalyst"
+	SetBorderColor 255 128 0
+	SetTextColor 255 128 0
 	SetFontSize 42
 	PlayEffect Blue
 	MinimapIcon 2 Blue Circle
@@ -307,11 +256,33 @@ Show
 	PlayEffect Green
 
 Show
+	BaseType "Vial of the Ghost" "Vial of Sacrifice" "Prime Chaotic" "Prime Alchemical"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
 	BaseType "League" "Vial of" "Resonator" "Aberrant Fossil" "Aetheric Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Enchanted Fossil" "Encrusted Fossil" "Frigid Fossil" "Gilded Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Perfect Fossil" "Prismatic Fossil" "Pristine Fossil" "Scorched Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
 	SetBorderColor 255 240 20
 	SetTextColor 255 240 20
 	SetFontSize 42
 	PlayEffect Green
+
+Show
+	BaseType "Ivory Watchstone"
+	SetFontSize 42
+	SetTextColor 0 255 0
+	SetBorderColor 255 128 0
+
+Show
+	BaseType "Watchstone"
+	SetFontSize 42
+	SetTextColor 0 255 0
+	SetBorderColor 0 255 0
 
 Show
 	Class Quest
@@ -345,7 +316,7 @@ Show
 
 Show
 	Class Map
-	BaseType "Gilded Sulphite" "Polished Sulphite" "Rusted Sulphite" "Gilded Bestiary" "Polished Bestiary" "Gilded Divination" "Gilded Harbinger" "Rusted Bestiary" "Gilded Cartography"
+	BaseType "Gilded Sulphite" "Polished Sulphite" "Rusted Sulphite" "Gilded Bestiary" "Gilded Divination" "Gilded Harbinger" "Gilded Cartography" "Gilded Legion" "Gilded Torment"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -385,7 +356,7 @@ Show
 	PlayEffect White
 
 Show
-	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur"
+	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification" "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -473,104 +444,13 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Exalted Orb"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Exalted Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
 	SetBackgroundColor 255 255 255
 	PlayAlertSound 8 100
 	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-Show
-	BaseType "Mirror of Kalandra"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-Show
-	BaseType "Fishing Rod"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-Show
-	BaseType "Albino Rhoa Feather"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-Show
-	BaseType "Eternal Orb"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-Show
-	BaseType "Mirror Shard"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-Show
-	BaseType "Vial of the Ghost"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-Show
-	BaseType "Vial of Sacrifice"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-
-Show
-	BaseType "Blessing of Chayula"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-
-Show
-	BaseType "Exalted Shard"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 1 Red Star
 	PlayEffect Red
 
 Show
@@ -584,7 +464,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Vaal Breach"
+	BaseType "Vaal Breach" "Awakened"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -595,7 +475,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Akil's Prophecy" "Azyran's Reward" "The Bargain" "The Deal" "The Heroic Shot" "More is Never Enough" "The Mountain" "The Price of Loyalty" "The Side Quest" "The Skeleton" "Vile Power" "Void of the Elements" "The Wolf's Legacy"
+	BaseType "The Bones" "Cameria's Cut" "The Chosen" "The Craving" "Deathly Designs" "Divine Justice" "Friendship" "Squandered Prosperity" "Underground Forest"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -864,7 +744,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "The World Eater" "Pride of the First Ones" "The Life Thief" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Mayor" "The Celestial Stone" "Buried Treasure" "The Vast" "The Wolven King's Bite" "The Damned" "The Demon"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "The World Eater" "Pride of the First Ones" "The Life Thief" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Mayor" "The Celestial Stone" "Buried Treasure" "The Vast" "The Wolven King's Bite" "The Damned" "The Demon" "Succor of the Sinless"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -875,7 +755,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Immortal Resolve" "The Last One Standing" "The Undisputed" "Burning Blood" "The Dragon's Heart" "Pride Before the Fall" "The King's Heart" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Samurai's Eye" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Deep Ones" "Dark Dreams" "The Eye of Terror" "Nook's Crown" "The Old Man" "Remembrance"
+	BaseType "Immortal Resolve" "The Last One Standing" "The Undisputed" "Burning Blood" "The Dragon's Heart" "Pride Before the Fall" "The King's Heart" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Samurai's Eye" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Deep Ones" "Dark Dreams" "The Eye of Terror" "Nook's Crown" "The Old Man" "Remembrance" "Baited Expectations" "The Escape" "Etched in Blood" "The Fishmonger"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -1033,7 +913,7 @@ Show
 
 Show
 	Class Ring Jewel
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -1044,7 +924,7 @@ Show
 
 Show
 	Class Amulet Belt Quiver
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 86
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -1055,7 +935,7 @@ Show
 
 Show
 	Class Ring Amulet Belt Quiver
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
 	SetTextColor 220 14 70
@@ -1066,7 +946,7 @@ Show
 
 Show
 	Class Ring Amulet Belt Quiver
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
 	SetTextColor 220 14 70
@@ -1075,59 +955,9 @@ Show
 
 Show
 	Class Ring Amulet Belt Quiver
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel < 60
 	SetTextColor 220 14 70
-	SetFontSize 42
-	PlayAlertSound 11 100
-
-Show
-	Class Ring Jewel
-	ElderItem True
-	ItemLevel >= 85
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
-	SetFontSize 42
-	PlayAlertSound 11 100
-	MinimapIcon 0 Red Circle
-	PlayEffect Yellow
-
-Show
-	Class Amulet Belt Quiver
-	ElderItem True
-	ItemLevel >= 86
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
-	SetFontSize 42
-	PlayAlertSound 11 100
-	MinimapIcon 0 Red Circle
-	PlayEffect Yellow
-
-Show
-	Class Ring Amulet Belt Quiver
-	ElderItem True
-	ItemLevel >= 75
-	SetBorderColor 24 121 180
-	SetTextColor 49 179 185
-	SetFontSize 42
-	PlayAlertSound 11 100
-	MinimapIcon 2 Yellow Circle
-	PlayEffect Yellow
-
-Show
-	Class Ring Amulet Belt Quiver
-	ElderItem True
-	ItemLevel >= 60
-	SetBorderColor 255 255 119
-	SetTextColor 49 179 185
-	SetFontSize 42
-	PlayAlertSound 11 100
-
-Show
-	Class Ring Amulet Belt Quiver Jewel
-	ElderItem True
-	ItemLevel < 60
-	SetTextColor 49 179 185
 	SetFontSize 42
 	PlayAlertSound 11 100
 
@@ -1173,7 +1003,7 @@ Show
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 86
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -1184,32 +1014,10 @@ Show
 
 Show
 	BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand"
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
-	SetFontSize 42
-	PlayAlertSound 11 100
-	MinimapIcon 0 Red Circle
-	PlayEffect Yellow
-
-Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield"
-	ElderItem True
-	ItemLevel >= 86
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
-	SetFontSize 42
-	PlayAlertSound 11 100
-	MinimapIcon 0 Red Circle
-	PlayEffect Yellow
-
-Show
-	BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Sambar Sceptre" "Void Sceptre" "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand"
-	ElderItem True
-	ItemLevel >= 85
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
 	SetFontSize 42
 	PlayAlertSound 11 100
 	MinimapIcon 0 Red Circle
@@ -1260,21 +1068,10 @@ Show
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
 	SetTextColor 220 14 70
-	SetFontSize 42
-	PlayAlertSound 11 100
-	MinimapIcon 2 Yellow Circle
-	PlayEffect Yellow
-
-Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
-	ElderItem True
-	ItemLevel >= 75
-	SetBorderColor 24 121 180
-	SetTextColor 49 179 185
 	SetFontSize 42
 	PlayAlertSound 11 100
 	MinimapIcon 2 Yellow Circle
@@ -1290,19 +1087,10 @@ Show
 
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
 	SetTextColor 220 14 70
-	SetFontSize 42
-	PlayAlertSound 11 100
-
-Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver"
-	ElderItem True
-	ItemLevel >= 60
-	SetBorderColor 255 255 119
-	SetTextColor 49 179 185
 	SetFontSize 42
 	PlayAlertSound 11 100
 
@@ -1319,7 +1107,7 @@ Show
 Show
 	Class Body Helm Boot Shield
 	Rarity Rare
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 86
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -1328,28 +1116,10 @@ Show
 Show
 	Class One Two Bow Claws Daggers Glove
 	Rarity Rare
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
-	PlayAlertSound 11 100
-
-Show
-	Class Body Helm Boot Shield
-	Rarity Rare
-	ElderItem True
-	ItemLevel >= 86
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
-	PlayAlertSound 11 100
-
-Show
-	Class One Two Bow Claws Daggers Glove
-	Rarity Rare
-	ElderItem True
-	ItemLevel >= 85
-	SetBorderColor 255 0 119
-	SetTextColor 49 179 185
 	PlayAlertSound 11 100
 
 Show
@@ -1375,13 +1145,7 @@ Show
 
 
 Show
-	ElderItem True
-	SetTextColor 49 179 185
-	SetBorderColor 49 179 185
-	PlayAlertSound 11 100
-
-Show
-	ShaperItem True
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetTextColor 220 14 70
 	SetBorderColor 220 14 70
 	PlayAlertSound 11 100
@@ -1411,23 +1175,15 @@ Show
 	BaseType "Prophecy Wand"
 ####Inpulsa's Broken Heart:
 	BaseType "Sadist Garb"
-####Sin's Rebirth:
-	BaseType "Stibnite Flask"
 ####Devoto's Devotion:
 	BaseType "Nightmare Bascinet"
 ####Arakaali's Fang:
 	BaseType "Fiend Dagger"
-####Kitava's Feast:
-	BaseType "Void Axe"
+####Headhunter
+	BaseType "Leather Belt"
 	Rarity Normal
 	Corrupted False
 	SetBorderColor 255 255 0
-
-####Show
-####	BaseType "Leather Belt"
-####	Rarity Normal
-####	Corrupted False
-####	SetBorderColor 255 255 0
 	
 Show
 	BaseType "Gavel"
@@ -1447,11 +1203,7 @@ Show
 
 Show
 	BaseType "Stone Hammer" "Rock Breaker"
-	Rarity Normal
-	SetBorderColor 255 128 12
-
-Show
-	BaseType "Stone Hammer" "Rock Breaker"
+	ItemLevel >= 60
 	Rarity Normal
 	SetBorderColor 255 128 12
 
