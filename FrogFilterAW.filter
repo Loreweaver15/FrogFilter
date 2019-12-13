@@ -178,7 +178,15 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Sample" "Catalyst"
+	Class Metamorph Sample
+	SetBorderColor 255 128 0
+	SetTextColor 255 128 0
+	SetFontSize 42
+	PlayEffect Blue
+	MinimapIcon 2 Blue Circle
+
+Show
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst"
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
 	SetFontSize 42
