@@ -150,7 +150,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Splinter of" "Vaal Splinter" "Templar Splinter" "Eternal Empire Splinter" "Maraketh Splinter" "Karui Splinter"
+	BaseType "Splinter of" "Vaal Splinter" "Templar Splinter" "Eternal Empire Splinter" "Maraketh Splinter" "Karui Splinter" "Simulacrum Splinter"
 	SetTextColor 155 255 255
 	SetBorderColor 128 0 255
 	SetBackgroundColor 145 35 98
@@ -186,7 +186,13 @@ Show
 	MinimapIcon 2 Blue Circle
 
 Show
-	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst"
+	Class Divination Card
+	BaseType "The Catalyst"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 
+
+Show
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb"
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
 	SetFontSize 42
@@ -384,7 +390,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Chayula's Breachstone" "Uul-Netol's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Eternal Emblem" "Timeless Vaal Emblem"
+	BaseType "Chayula's Breachstone" "Uul-Netol's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Eternal Emblem" "Timeless Vaal Emblem" "Simulacrum"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -462,6 +468,13 @@ Show
 	PlayEffect Red
 
 Show
+	BaseType "Sextant"
+	SetBorderColor 255 25 0
+	SetTextColor 155 255 0
+	SetFontSize 42
+	PlayEffect Green
+
+Show
 	BaseType "Enlighten" "Empower" "Enhance"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
@@ -483,7 +496,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Bones" "Cameria's Cut" "The Chosen" "The Craving" "Deathly Designs" "Divine Justice" "Friendship" "Squandered Prosperity" "Underground Forest"
+	BaseType "The Tinkerer's Table" "The Easy Stroll" "The Progeny of Lunaris" "The Eldritch Decay" "Council of Cats"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -569,7 +582,7 @@ Show
 	PlayEffect White
 
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Sextant" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard"
+	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -635,6 +648,23 @@ Show
 	Class Gem
 	BaseType "Vaal"
 	SetBorderColor 0 255 128
+
+Show
+	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye" "Cluster"
+	ItemLevel >= 84
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	PlayEffect Yellow
+	MinimapIcon 1 Red Circle
+
+Show
+	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye" "Cluster"
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
 
 Show
 	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" 
@@ -752,7 +782,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "The World Eater" "Pride of the First Ones" "The Life Thief" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Mayor" "The Celestial Stone" "Buried Treasure" "The Vast" "The Wolven King's Bite" "The Damned" "The Demon" "Succor of the Sinless"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" 
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -763,7 +793,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Immortal Resolve" "The Last One Standing" "The Undisputed" "Burning Blood" "The Dragon's Heart" "Pride Before the Fall" "The King's Heart" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Samurai's Eye" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Deep Ones" "Dark Dreams" "The Eye of Terror" "Nook's Crown" "The Old Man" "Remembrance" "Baited Expectations" "The Escape" "Etched in Blood" "The Fishmonger"
+	BaseType "The Celestial Stone" "The Mayor" "The World Eater" "The Dragon's Heart" "The Vast" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Eye of Terror" "The Old Man" "Remembrance" "Baited Expectations" "The Escape" "The Fishmonger" "The Cheater" "The Strategist" "The Life Thief" "Squandered Prosperity"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -881,23 +911,6 @@ Show
 	Rarity Normal
 	Corrupted False
 	SetBorderColor 255 255 0
-
-Show
-	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye"
-	ItemLevel >= 84
-	SetBorderColor 255 0 119
-	SetTextColor 220 14 70
-	SetFontSize 42
-	PlayEffect Yellow
-	MinimapIcon 1 Red Circle
-
-Show
-	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye"
-	SetBorderColor 255 0 119
-	SetTextColor 220 14 70
-	SetFontSize 42
-	PlayEffect Yellow
-	MinimapIcon 2 Yellow Circle
 
 Show
 	Class Jewel
@@ -1188,10 +1201,10 @@ Show
 ####Arakaali's Fang:
 	BaseType "Fiend Dagger"
 ####Headhunter
-	BaseType "Leather Belt"
-	Rarity Normal
-	Corrupted False
-	SetBorderColor 255 255 0
+####	BaseType "Leather Belt"
+####	Rarity Normal
+####	Corrupted False
+####	SetBorderColor 255 255 0
 	
 Show
 	BaseType "Gavel"
