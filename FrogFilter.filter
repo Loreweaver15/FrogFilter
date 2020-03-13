@@ -189,7 +189,7 @@ Show
 	Class Divination Card
 	BaseType "The Catalyst"
 	SetTextColor 0 128 255
-	SetBorderColor 128 128 
+	SetBorderColor 128 128 255
 
 Show
 	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb"
