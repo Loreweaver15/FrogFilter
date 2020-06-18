@@ -192,7 +192,7 @@ Show
 	SetBorderColor 128 128 255
 
 Show
-	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb"
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Time-Light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Seed" "Grain" "Bulb"
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
 	SetFontSize 42
@@ -341,7 +341,7 @@ Show
 
 Show
 	Class Map
-	BaseType "Gilded"
+	BaseType "Gilded" "Winged"
 	SetTextColor 195 195 195
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -400,7 +400,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Offering to the Goddess"
+	BaseType "to the Goddess"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -458,7 +458,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Exalted Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Exalted Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard"  "Thornfruit" "Scalefruit" "Blisterfruit"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -496,7 +496,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Tinkerer's Table" "The Easy Stroll" "The Progeny of Lunaris" "The Eldritch Decay" "Council of Cats"
+	BaseType "The Tumbleweed" "The Hive of Knowledge" "Gift of Asenath" "A Note in the Wind" "The White Knight" "Prometheus' Armoury" "The Sustenance" "Peaceful Moments" "The Awakened" "A Familiar Call" "The Long Con"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -650,7 +650,7 @@ Show
 	SetBorderColor 0 255 128
 
 Show
-	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye" "Cluster"
+	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye" "Cluster Jewel"
 	ItemLevel >= 84
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -659,7 +659,7 @@ Show
 	MinimapIcon 1 Red Circle
 
 Show
-	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye" "Cluster"
+	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye" "Cluster Jewel"
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetFontSize 42
@@ -782,7 +782,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" 
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Gretest Intentions"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -1188,17 +1188,11 @@ Show
 	SetTextColor 200 155 0
 
 Show
-####Skyforth:
 	BaseType "Sorcerer Boots"
-####Kaom's Heart:
 	BaseType "Glorious Plate"
-####Void Battery:
 	BaseType "Prophecy Wand"
-####Inpulsa's Broken Heart:
 	BaseType "Sadist Garb"
-####Devoto's Devotion:
 	BaseType "Nightmare Bascinet"
-####Arakaali's Fang:
 	BaseType "Fiend Dagger"
 ####Headhunter
 ####	BaseType "Leather Belt"
