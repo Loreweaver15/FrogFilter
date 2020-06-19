@@ -192,7 +192,7 @@ Show
 	SetBorderColor 128 128 255
 
 Show
-	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Time-Light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Seed" "Grain" "Bulb"
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Seed" "Grain" "Bulb"
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
 	SetFontSize 42
@@ -782,7 +782,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Gretest Intentions"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
