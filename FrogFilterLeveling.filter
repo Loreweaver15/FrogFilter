@@ -47,6 +47,18 @@ Show
 	PlayEffect Red
 
 Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom Hammer" "Alternating Sphere" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	ItemLevel >= 84
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
+
+Show
 	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring"
 	ItemLevel >= 85
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
@@ -72,6 +84,15 @@ Show
 
 Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
+	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom Hammer" "Alternating Sphere" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -124,7 +145,24 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom Hammer" "Alternating Sphere" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	ItemLevel >= 84
+	SetBorderColor 255 100 150
+	SetBackgroundColor 255 255 255
+	SetTextColor 105 25 25
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
+	Rarity Normal
+	SetBorderColor 255 100 150
+	SetFontSize 42
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom Hammer" "Alternating Sphere" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
 	Rarity Normal
 	SetBorderColor 255 100 150
 	SetFontSize 42
@@ -136,7 +174,20 @@ Show
 	SetFontSize 42
 
 Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom Hammer" "Alternating Sphere" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	Rarity Magic
+	SetBorderColor 255 100 150
+	SetFontSize 42
+
+Show
 	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
+	Rarity Rare
+	SetBorderColor 255 100 150
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom Hammer" "Alternating Sphere" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
 	Rarity Rare
 	SetBorderColor 255 100 150
 	SetTextColor 200 155 0
@@ -195,6 +246,15 @@ Show
 	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Time-light Scroll" "Seed" "Grain" "Bulb" "Bud" "Flower" "Blossom"
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
+	SetFontSize 42
+	PlayEffect Blue
+	MinimapIcon 2 Blue Circle
+
+Show
+	BaseType "Rogue's Marker"
+	SetBorderColor 255 128 0
+	SetBackgroundColor 255 128 0
+	SetTextColor 0 0 0
 	SetFontSize 42
 	PlayEffect Blue
 	MinimapIcon 2 Blue Circle
@@ -294,6 +354,12 @@ Show
 
 Show
 	BaseType "Watchstone"
+	SetFontSize 42
+	SetTextColor 0 255 0
+	SetBorderColor 0 255 0
+
+Show
+	Class Target
 	SetFontSize 42
 	SetTextColor 0 255 0
 	SetBorderColor 0 255 0
@@ -496,7 +562,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Tumbleweed" "The Hive of Knowledge" "Gift of Asenath" "A Note in the Wind" "The White Knight" "Prometheus' Armoury" "The Sustenance" "Peaceful Moments" "The Awakened" "A Familiar Call" "The Long Con"
+	BaseType "The Gulf" "The Bitter Blossom" "The Cache" "The Academic" "Unchained" "The Unexpected Prize" "Cursed Words" "The Journalist"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -552,6 +618,13 @@ Show
 	PlayEffect Red
 
 Show
+	Class Contract
+	SetBorderColor 255 255 255
+	SetFontSize 42
+	MinimapIcon 1 White Square
+	PlayEffect White
+
+Show
 	Class Map
 	MapTier <= 5
 	SetBorderColor 255 255 255
@@ -565,6 +638,13 @@ Show
 	SetBorderColor 255 240 20
 	SetFontSize 42
 	MinimapIcon 1 Yellow Square
+	PlayEffect White
+
+Show
+	Class Blueprint
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	MinimapIcon 1 Red Square
 	PlayEffect White
 
 Show
@@ -782,7 +862,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -793,7 +873,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Celestial Stone" "The Mayor" "The World Eater" "The Dragon's Heart" "The Vast" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Eye of Terror" "The Old Man" "Remembrance" "Baited Expectations" "The Escape" "The Fishmonger" "The Cheater" "The Strategist" "The Life Thief" "Squandered Prosperity"
+	BaseType "The Celestial Stone" "The Mayor" "The World Eater" "The Dragon's Heart" "The Vast" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Eye of Terror" "The Old Man" "Remembrance" "Baited Expectations" "The Escape" "The Fishmonger" "The Cheater" "The Strategist" "The Life Thief" "Squandered Prosperity" "Triskaidekaphobia"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -933,7 +1013,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Ring Jewel
+	Class Ring Jewel Trinket Cloak Brooch Tool Gear
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
@@ -955,7 +1035,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	Class Ring Amulet Belt Quiver
+	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
@@ -966,7 +1046,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	Class Ring Amulet Belt Quiver
+	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
@@ -975,7 +1055,7 @@ Show
 	PlayAlertSound 11 100
 
 Show
-	Class Ring Amulet Belt Quiver
+	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel < 60
 	SetTextColor 220 14 70
@@ -983,7 +1063,7 @@ Show
 	PlayAlertSound 11 100
 
 Show
-	Class Ring
+	Class Ring Trinket Cloak Brooch Tool Gear
 	Rarity Rare
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
@@ -1000,7 +1080,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Ring Amulet Belt Quiver
+	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
 	Rarity Rare
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
@@ -1008,7 +1088,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Ring Amulet Belt Quiver
+	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
 	Rarity Rare
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
@@ -1016,7 +1096,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Ring Amulet Belt Quiver Jewel
+	Class Ring Amulet Belt Quiver Jewel Trinket Cloak Brooch Tool Gear
 	Rarity Rare
 	ItemLevel < 60
 	SetTextColor 200 155 0
