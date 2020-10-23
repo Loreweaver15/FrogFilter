@@ -201,6 +201,13 @@ Show
 	PlayEffect Green
 
 Show
+	Class Trinket Cloak Brooch Tool Gear
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+	SetFontSize 42
+	PlayEffect Green
+
+Show
 	BaseType "Splinter of" "Vaal Splinter" "Templar Splinter" "Eternal Empire Splinter" "Maraketh Splinter" "Karui Splinter" "Simulacrum Splinter"
 	SetTextColor 155 255 255
 	SetBorderColor 128 0 255
@@ -239,11 +246,12 @@ Show
 Show
 	Class Divination Card
 	BaseType "The Catalyst"
+	SetFontSize 42
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 
 Show
-	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Time-light Scroll" "Seed" "Grain" "Bulb" "Bud" "Flower" "Blossom"
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Indigo Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Time-light Scroll" "Seed" "Grain" "Bulb" "Bud" "Flower" "Blossom"
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
 	SetFontSize 42
@@ -330,7 +338,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Vial of the Ghost" "Vial of Sacrifice" "Prime Chaotic" "Prime Alchemical"
+	BaseType "Vial of the Ghost" "Vial of Transcendence" "Prime Chaotic" "Prime Alchemical"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -524,7 +532,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Exalted Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard"  "Thornfruit" "Scalefruit" "Blisterfruit"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard"  "Thornfruit" "Scalefruit" "Blisterfruit"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -579,7 +587,7 @@ Show
 	PlayEffect Blue
 
 Show
-	BaseType "Blessing of" "Sacrificial Garb" "Divine Orb" "Ancient Orb" "Vaal Temple" "Necromancy Net" "Orb of Annulment" "Thaumaturgical Net" "Harbinger's Orb"
+	BaseType "Blessing of" "Sacrificial Garb" "Divine Orb" "Ancient Orb" "Vaal Temple" "Necromancy Net" "Thaumaturgical Net"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -662,7 +670,7 @@ Show
 	PlayEffect White
 
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Tempering Orb"
+	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -1035,7 +1043,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
+	Class Ring Amulet Belt Quiver
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
@@ -1046,7 +1054,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
+	Class Ring Amulet Belt Quiver
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
@@ -1055,7 +1063,7 @@ Show
 	PlayAlertSound 11 100
 
 Show
-	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
+	Class Ring Amulet Belt Quiver
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel < 60
 	SetTextColor 220 14 70
@@ -1063,7 +1071,7 @@ Show
 	PlayAlertSound 11 100
 
 Show
-	Class Ring Trinket Cloak Brooch Tool Gear
+	Class Ring
 	Rarity Rare
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
@@ -1080,7 +1088,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
+	Class Ring Amulet Belt Quiver
 	Rarity Rare
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
@@ -1088,7 +1096,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Ring Amulet Belt Quiver Trinket Cloak Brooch Tool Gear
+	Class Ring Amulet Belt Quiver
 	Rarity Rare
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
@@ -1096,7 +1104,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Ring Amulet Belt Quiver Jewel Trinket Cloak Brooch Tool Gear
+	Class Ring Amulet Belt Quiver Jewel
 	Rarity Rare
 	ItemLevel < 60
 	SetTextColor 200 155 0
@@ -1268,14 +1276,7 @@ Show
 	SetTextColor 200 155 0
 
 Show
-	BaseType "Sorcerer Boots"
-	BaseType "Glorious Plate"
-	BaseType "Prophecy Wand"
-	BaseType "Sadist Garb"
-	BaseType "Nightmare Bascinet"
-	BaseType "Fiend Dagger"
-####Headhunter
-	BaseType "Leather Belt"
+	BaseType "Leather Belt" "Siege Axe" "Prophecy Wand" "Sentinel Jacket" "Occultist's Vestment" "Studded Belt"
 	Rarity Normal
 	Corrupted False
 	SetBorderColor 255 255 0
