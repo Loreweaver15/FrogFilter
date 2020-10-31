@@ -754,15 +754,15 @@ Show
 	MinimapIcon 1 Green Star
 
 Show
+	GemQualityType Superior Anomalous Divergent Phantasmal
+	SetBorderColor 255 0 0
+	SetFontSize 42
+
+Show
 	Class Gem Flask
 	Rarity Normal
 	Quality = 20
 	SetBorderColor 0 255 128
-	SetFontSize 42
-
-Show
-	GemQualityType Superior Anomalous Divergent Phantasmal
-	SetBorderColor 255 0 0
 	SetFontSize 42
 
 Show
