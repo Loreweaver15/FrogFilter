@@ -754,7 +754,7 @@ Show
 	MinimapIcon 1 Green Star
 
 Show
-	GemQualityType Superior Anomalous Divergent Phantasmal
+	GemQualityType Anomalous Divergent Phantasmal
 	SetBorderColor 255 0 0
 	SetFontSize 42
 
