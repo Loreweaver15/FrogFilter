@@ -220,8 +220,15 @@ Show
 
 Show
 	Class Trinket Cloak Brooch Tool Gear
+	Rarity Rare
 	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
+	SetFontSize 42
+	PlayEffect Green
+
+Show
+	Class Trinket Cloak Brooch Tool Gear
+	SetBorderColor 0 200 0
 	SetFontSize 42
 	PlayEffect Green
 
