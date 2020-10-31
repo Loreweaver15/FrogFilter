@@ -762,7 +762,7 @@ Show
 
 Show
 	GemQualityType Superior Anomalous Divergent Phantasmal
-	SetBorderColor 0 255 128
+	SetBorderColor 255 0 0
 	SetFontSize 42
 
 Show
