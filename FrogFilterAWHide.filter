@@ -35,7 +35,7 @@ Show
 	MinimapIcon 2 Green Circle
 
 Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	ItemLevel >= 86
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
@@ -59,7 +59,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring"
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	ItemLevel >= 85
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
@@ -83,7 +83,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -112,7 +112,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	ItemLevel >= 86
 	SetBorderColor 255 100 150
 	SetBackgroundColor 255 255 255
@@ -123,7 +123,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring"
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	ItemLevel >= 85
 	SetBorderColor 255 100 150
 	SetBackgroundColor 255 255 255
@@ -156,7 +156,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	Rarity Normal
 	SetBorderColor 255 100 150
 	SetFontSize 42
@@ -168,7 +168,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	Rarity Magic
 	SetBorderColor 255 100 150
 	SetFontSize 42
@@ -180,7 +180,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	Rarity Rare
 	SetBorderColor 255 100 150
 	SetTextColor 200 155 0
@@ -293,7 +293,7 @@ Show
 	MinimapIcon 2 Blue Circle
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Astral Plate" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	FracturedItem True
 	SetTextColor 255 255 255
 	SetBorderColor  255 255 255
@@ -315,7 +315,7 @@ Show
 	PlayEffect Blue
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Astral Plate" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	SynthesisedItem True
 	SetTextColor 255 255 255
 	SetBorderColor  255 255 255
@@ -380,16 +380,14 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Ivory Watchstone"
-	SetFontSize 42
-	SetTextColor 0 255 0
-	SetBorderColor 255 128 0
-
-Show
 	BaseType "Watchstone"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
 	SetFontSize 42
-	SetTextColor 0 255 0
-	SetBorderColor 0 255 0
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
 
 Show
 	Class Target
@@ -428,8 +426,18 @@ Show
 	PlayEffect Blue
 
 Show
+	BaseType "Maven's Invitation"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
 	Class Map
-	BaseType "Gilded Sulphite" "Polished Sulphite" "Rusted Sulphite" "Gilded Bestiary" "Gilded Divination" "Gilded Harbinger" "Gilded Cartography" "Gilded Legion" "Gilded Torment"
+	BaseType "Gilded Sulphite" "Polished Sulphite" "Rusted Sulphite" "Gilded Bestiary" "Gilded Divination" "Gilded Harbinger" "Gilded Cartography" "Gilded Legion" "Gilded Torment" "The Maven's Writ" "Blood-filled Vessel"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -566,7 +574,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard"  "Thornfruit" "Scalefruit" "Blisterfruit"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard"  "Thornfruit" "Scalefruit" "Blisterfruit" "Orb of Unmaking" "Maven's Orb"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -593,6 +601,16 @@ Show
 	PlayEffect Red
 
 Show
+	Class Divination Card
+	BaseType "The Awakened"
+	SetTextColor 0 128 255
+	SetBorderColor 128 128 255
+	SetFontSize 42
+	PlayAlertSound 4 100
+	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue
+
+Show
 	BaseType "Vaal Breach" "Awakened"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
@@ -604,7 +622,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Gulf" "The Bitter Blossom" "The Cache" "The Academic" "Unchained" "The Unexpected Prize" "Cursed Words" "The Journalist"
+	BaseType "Acclimitisation" "Haunting Shadows" "The Whiteout" "Society's Remorse" "Dying Light" "The Astromancer" "Keeper's Corruption" "Reckless Ambition" "Love Through Ice" "Draped in Dreams" "The Patient" "The Long Watch" "The Bear Woman" "Brotherhood in Exile"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -704,7 +722,15 @@ Show
 	PlayEffect White
 
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb"
+	BaseType "Chaos Orb"
+	SetBorderColor 255 25 0
+	SetTextColor 155 255 0
+	SetFontSize 42
+	PlayEffect Green
+	MinimapIcon 2 Red Circle
+
+Show
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -839,7 +865,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	Rarity Rare
 	Quality > 20
 	SetBorderColor 0 200 0
@@ -884,7 +910,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	HasExplicitMod "Citaqualotl's" "Guatelitzi's" "Matatl's" "of Citaqualotl" "of Guatelitzi" "of Matatl" "of Puhuarte" "of Tacati" "Tacati's" "Topotante's" "Xopec's"
 	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
@@ -909,7 +935,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -987,6 +1013,7 @@ Show
 	SetBackgroundColor 240 200 20
 	SetBorderColor 240 200 20
 	SetTextColor 0 0 0
+	SetFontSize 42
 
 Show
 	Class Currency
@@ -1150,7 +1177,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield" "Astral Plate" "Serpentscale Gauntlets"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 86
 	SetBorderColor 255 0 119
@@ -1172,7 +1199,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield" "Astral Plate" "Serpentscale Gauntlets"
 	Rarity Rare
 	ItemLevel >= 86
 	SetBorderColor 255 0 119
@@ -1197,7 +1224,7 @@ Show
 
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield" "Astral Plate" "Serpentscale Gauntlets"
 	ItemLevel >= 86
 	Rarity Normal Magic
 	SetBorderColor 255 0 200
@@ -1215,7 +1242,7 @@ Show
 	SetBorderColor 255 0 200
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
@@ -1226,7 +1253,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	Rarity Rare
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
@@ -1234,7 +1261,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
@@ -1243,7 +1270,7 @@ Show
 	PlayAlertSound 11 100
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate"
+	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	Rarity Rare 
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
@@ -1315,7 +1342,7 @@ Show
 	SetTextColor 200 155 0
 
 Show
-	BaseType "Leather Belt" "Siege Axe" "Prophecy Wand" "Sentinel Jacket" "Occultist's Vestment" "Studded Belt"
+	BaseType "Siege Axe" "Prophecy Wand" "Occultist's Vestment" "Studded Belt"
 	Rarity Normal
 	Corrupted False
 	SetBorderColor 255 255 0
