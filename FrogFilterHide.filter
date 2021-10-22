@@ -574,7 +574,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Orb of Unmaking" "Maven's Orb" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Enkindling Orb" "Instilling Orb"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Orb of Unmaking" "Maven's Orb" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Enkindling Orb" "Instilling Orb" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardop"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -622,7 +622,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Last Supper" "The Emptiness" "A Sea of Blue" "The Offspring" "The Price of Prescience" "The Mind's Eyes" "Terrible Secret of Space" "The Blessing of Moosh" "Costly Curio" "Lachrymal Necrosis" "Dementophobia" "Ambitious Obsession"
+	BaseType "Desperate Crusade" "A Stone Perfected" "The Rabbit's Foot" "Chasing Risk" "The Prince of Darkness" "The Catch" "Eternal Bonds" "Disdain" "The Scout" "Guardian's Challenge" "The Forgotten Treasure" "The Fox in the Brambles" "The Aspirant"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -665,6 +665,16 @@ Show
 	SetFontSize 42
 	MinimapIcon 1 Blue Star
 	PlayEffect Blue
+
+Show
+	UberBlightedMap True
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Square
+	PlayEffect Red
 
 Show
 	Class Map
@@ -722,7 +732,7 @@ Show
 	PlayEffect White
 
 Show
-	BaseType "Chaos Orb" "Veiled Chaos Orb"
+	BaseType "Chaos Orb" "Veiled Chaos Orb" "Tainted Chaos Orb"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -730,7 +740,7 @@ Show
 	MinimapIcon 2 Red Circle
 
 Show
-	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel"
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" 
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -965,7 +975,7 @@ Show
 	PlayEffect Blue
 
 Show
-	BaseType "Orb of Horizons" "Engineer's Orb" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring"
+	BaseType "Orb of Horizons" "Engineer's Orb" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Tainted Chromatic Orb"
 	SetTextColor 0 255 128
 	SetBorderColor 128 128 255
 	SetFontSize 42
@@ -1006,13 +1016,6 @@ Show
 	BaseType "Orb of Alteration"
 	SetTextColor 255 100 0
 	SetBorderColor 100 0 200
-	SetFontSize 42
-
-Show
-	BaseType "Perandus Coin"
-	SetBackgroundColor 240 200 20
-	SetBorderColor 240 200 20
-	SetTextColor 0 0 0
 	SetFontSize 42
 
 Show
