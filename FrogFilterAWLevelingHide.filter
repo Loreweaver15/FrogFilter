@@ -276,7 +276,15 @@ Show
 	SetBorderColor 128 128 255
 
 Show
-	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Indigo Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Time-light Scroll" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion"
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Indigo Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Time-light Scroll" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion" "Oil Extractor"
+	SetBorderColor 255 128 0
+	SetTextColor 255 128 0
+	SetFontSize 42
+	PlayEffect Blue
+	MinimapIcon 2 Blue Circle
+
+Show
+	ItemClass ArchnemesisMod
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
 	SetFontSize 42
@@ -380,7 +388,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Watchstone"
+	BaseType "Voidstone"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -426,7 +434,7 @@ Show
 	PlayEffect Blue
 
 Show
-	BaseType "Maven's Invitation"
+	BaseType "Maven's Invitation" "Writhing Invitation" "Screaming Invitation" "Polaric Invitation" "Incandescent Invitation"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -477,7 +485,7 @@ Show
 	PlayEffect White
 
 Show
-	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification" "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness"
+	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification" "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -564,6 +572,15 @@ Show
 	PlayEffect White
 
 Show
+	BaseType "Scouting Report"
+	SetTextColor 195 195 195
+	SetBorderColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 1 White Triangle
+	PlayEffect White
+
+Show
 	BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
@@ -574,7 +591,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Orb of Unmaking" "Maven's Orb" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Enkindling Orb" "Instilling Orb" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Orb of Unmaking" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Enkindling Orb" "Instilling Orb" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -584,8 +601,16 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Sextant"
+	BaseType "Sextant" "Compass"
 	SetBorderColor 255 25 0
+	SetTextColor 155 255 0
+	SetFontSize 42
+	PlayEffect Green
+
+Show
+	BaseType "Eldritch Ember" "Eldritch Ichor" "Orb of Conflict" "Orb of Dominance" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
+	SetBorderColor 255 25 0
+	SetBackgroundColor 0 0 255
 	SetTextColor 155 255 0
 	SetFontSize 42
 	PlayEffect Green
@@ -622,7 +647,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Desperate Crusade" "A Stone Perfected" "The Rabbit's Foot" "Chasing Risk" "The Prince of Darkness" "The Catch" "Eternal Bonds" "Disdain" "The Scout" "Guardian's Challenge" "The Forgotten Treasure" "The Fox in the Brambles" "The Aspirant"
+	BaseType "Judging Voices" "Bijoux" "Silence and Frost" "Misery in Darkness" "The Tireless Extractor" "Justified Ambition" "Parasitic Passengers" "Duality" "The One That Got Away" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -647,24 +672,6 @@ Show
 	PlayAlertSound 8 100
 	MinimapIcon 1 Red Star
 	PlayEffect Red
-
-Show
-	Prophecy "The Queen's Sacrifice" "Trash to Treasure" "Fated Connections"
-	SetTextColor 189 0 210
-	SetBorderColor 189 0 210
-	SetBackgroundColor 164 164 164
-	SetFontSize 42
-	MinimapIcon 0 Red Star
-	PlayEffect Blue
-
-Show
-	Prophecy "Darktongue's Shriek" "Monstrous Treasure" "The King's Path" "A Master Seeks Help" "Wind and Thunder" "The Jeweller's Touch" "Twice Enchanted" "Flesh of the Beast"
-	SetTextColor 189 0 210
-	SetBorderColor 189 0 210
-	SetBackgroundColor 164 164 164
-	SetFontSize 42
-	MinimapIcon 1 Blue Star
-	PlayEffect Blue
 
 Show
 	UberBlightedMap True
@@ -945,7 +952,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -956,7 +963,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "The Celestial Stone" "The Mayor" "The World Eater" "The Dragon's Heart" "The Vast" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Eye of Terror" "The Old Man" "Remembrance" "Baited Expectations" "The Escape" "The Fishmonger" "The Cheater" "The Strategist" "The Life Thief" "Squandered Prosperity" "Triskaidekaphobia" "Winter's Embrace" "The Enthusiasts" "Broken Promises" "The Eternal War"
+	BaseType "The Celestial Stone" "The Mayor" "The World Eater" "The Dragon's Heart" "The Vast" "Wealth and Power" "The Saint's Treasure" "The Hoarder" "The Spark and the Flame" "Hunter's Reward" "Mawr Blaidd" "The Queen" "Arrogance of the Vaal" "The Undaunted" "The Eye of Terror" "The Old Man" "Remembrance" "Baited Expectations" "The Escape" "The Fishmonger" "The Cheater" "The Strategist" "The Life Thief" "Squandered Prosperity" "Triskaidekaphobia" "Winter's Embrace" "The Enthusiasts" "Broken Promises" "The Eternal War" "The Scout"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
@@ -992,25 +999,6 @@ Show
 	BaseType "Engineer's Shard" "Horizon Shard" "Armourer's Scrap" "Blacksmith's Whetstone"
 	SetTextColor 0 255 128
 	SetBorderColor 128 128 255
-
-Show
-	BaseType "Silver Coin"
-	SetTextColor 116 16 154
-	SetBorderColor 116 16 154
-	SetBackgroundColor 164 164 164
-	SetFontSize 42
-	MinimapIcon 2 Blue Diamond
-	PlayEffect Blue
-
-Show
-	Class Currency
-	BaseType "Prophecy"
-	SetTextColor 164 164 164
-	SetBorderColor 164 164 164
-	SetBackgroundColor 116 16 154
-	SetFontSize 42
-	MinimapIcon 2 Blue Diamond
-	PlayEffect Blue
 
 Show
 	BaseType "Orb of Alteration"
@@ -1345,20 +1333,12 @@ Show
 	SetTextColor 200 155 0
 
 Show
-	BaseType "Siege Axe" "Prophecy Wand" "Occultist's Vestment" "Studded Belt" "Leather Belt" "Turquoise Amulet"
-	Rarity Normal
-	Corrupted False
-	SetBorderColor 255 255 0
-	
-Show
 	BaseType "Gavel"
 	ItemLevel <= 84
 	Quality = 20
 	Rarity Normal
 	SetBorderColor 255 128 12
 	SetFontSize 42
-
-
 
 Show
 	BaseType "Stone Hammer" "Rock Breaker" "Gavel"
