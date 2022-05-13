@@ -47,6 +47,31 @@ Show
 	PlayEffect Red
 
 Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	ItemLevel >= 86
+	HasSearingExarchImplicit >= 1
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
+
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	ItemLevel >= 86
+	HasEaterOfWorldsImplicit >= 1
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
+
+
+Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
 	ItemLevel >= 84
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
@@ -59,9 +84,57 @@ Show
 	PlayEffect Red
 
 Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	ItemLevel >= 84
+	HasSearchExarchImplicit >= 1
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	ItemLevel >= 84
+	HasEaterOfWorldsImplicit >= 1
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
+
+Show
 	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Iolite Ring"
 	ItemLevel >= 85
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
+
+Show
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Iolite Ring"
+	ItemLevel >= 85
+	HasSearingExarchImplicit >= 1
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
+
+Show
+	BaseType "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Iolite Ring"
+	ItemLevel >= 85
+	HasEaterOfWorldsImplicit >= 1
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetBackgroundColor 255 255 255
@@ -92,8 +165,44 @@ Show
 	PlayEffect Yellow
 
 Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	HasSearingExarchImplicit >= 1
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	HasEaterOfWorldsImplicit >= 1
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring"
+	HasSearingExarchImplicit >= 1
+	SetBorderColor 255 0 119
+	SetTextColor 220 14 70
+	SetFontSize 42
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring"
+	HasEaterofWorldsImplicit >= 1
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetFontSize 42
@@ -197,8 +306,14 @@ Show
 	BaseType "Talisman"
 	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
+
+Show
+	BaseType "Sentinel"
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
 	SetFontSize 42
 	PlayEffect Green
+	MinimapIcon 2 Yellow Circle
 
 Show
 	Class Brooch
@@ -240,16 +355,6 @@ Show
 	SetFontSize 42
 	PlayEffect Green
 	MinimapIcon 2 Red Diamond
-
-Show
-	BaseType "Geomancer's Incubator" "Time-Lost Incubator"
-	SetTextColor 191 28 253
-	SetBorderColor 191 28 253
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	PlayEffect Blue
-	MinimapIcon 0 Blue Star
 
 Show
 	BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Delirium" "Essence of Horror"
@@ -445,7 +550,7 @@ Show
 
 Show
 	Class Map
-	BaseType "Gilded Sulphite" "Polished Sulphite" "Rusted Sulphite" "Gilded Bestiary" "Gilded Divination" "Gilded Harbinger" "Gilded Cartography" "Gilded Legion" "Gilded Torment" "The Maven's Writ" "Blood-filled Vessel"
+	BaseType "Winged" "The Maven's Writ" "Blood-filled Vessel"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -456,7 +561,7 @@ Show
 
 Show
 	Class Map
-	BaseType "Gilded" "Winged"
+	BaseType "Gilded"
 	SetTextColor 195 195 195
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -591,7 +696,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Orb of Unmaking" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Enkindling Orb" "Instilling Orb" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -608,7 +713,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Eldritch Ember" "Eldritch Ichor" "Orb of Conflict" "Orb of Dominance" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
+	BaseType "Eldritch Ember" "Eldritch Ichor" "Orb of Conflict" "Orb of Dominance" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment" "Awakener's Orb"
 	SetBorderColor 255 25 0
 	SetBackgroundColor 0 0 255
 	SetTextColor 155 255 0
@@ -647,7 +752,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Judging Voices" "Bijoux" "Silence and Frost" "Misery in Darkness" "The Tireless Extractor" "Justified Ambition" "Parasitic Passengers" "Duality" "The One That Got Away" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
+	BaseType "Altered Perception" "The Brawny Battle Mage" "Darker Half" "A Fate Worse Than Death" "The Forward Gaze" "From Bone to Ashes" "Further Invention" "Home" "Rebirth and Renewal" "The Destination" "The Dungeon Master"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -747,7 +852,7 @@ Show
 	MinimapIcon 2 Red Circle
 
 Show
-	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" 
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Power Core" "Recombinator"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -952,7 +1057,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds" "Judging Voices" "Duality" "The One That Got Away" "Magnum Opus" "Imperfect Memories" "The Apothecary"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
