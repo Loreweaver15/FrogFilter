@@ -389,14 +389,6 @@ Show
 	MinimapIcon 2 Blue Circle
 
 Show
-	Class Archnemesis Mod
-	SetBorderColor 255 128 0
-	SetTextColor 255 128 0
-	SetFontSize 42
-	PlayEffect Blue
-	MinimapIcon 2 Blue Circle
-
-Show
 	BaseType "Rogue's Marker" "Artifact"
 	SetBorderColor 255 128 0
 	SetBackgroundColor 255 128 0
