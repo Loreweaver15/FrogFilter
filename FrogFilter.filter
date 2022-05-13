@@ -86,7 +86,7 @@ Show
 Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
 	ItemLevel >= 84
-	HasSearchExarchImplicit >= 1
+	HasSearingExarchImplicit >= 1
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetBackgroundColor 255 255 255
@@ -202,7 +202,7 @@ Show
 
 Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring"
-	HasEaterofWorldsImplicit >= 1
+	HasEaterOfWorldsImplicit >= 1
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	SetFontSize 42
