@@ -308,14 +308,6 @@ Show
 	SetTextColor 200 155 0
 
 Show
-	BaseType "Sentinel"
-	SetBorderColor 0 200 0
-	SetTextColor 200 155 0
-	SetFontSize 42
-	PlayEffect Green
-	MinimapIcon 2 Yellow Circle
-
-Show
 	Class Brooch
 	ItemLevel >= 84
 	SetBorderColor 0 200 0
@@ -744,7 +736,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Altered Perception" "The Brawny Battle Mage" "Darker Half" "A Fate Worse Than Death" "The Forward Gaze" "From Bone to Ashes" "Further Invention" "Home" "Rebirth and Renewal" "The Destination" "The Dungeon Master"
+	BaseType "Broken Truce" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "Azure Rage" "The Leviathan" "Astral Projection" "Gemcutter's Mercy" "Checkmate" "Lethean Temptation" "Something Dark"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -781,7 +773,18 @@ Show
 	PlayEffect Red
 
 Show
-	Class Map
+	BaseType "Engraved Ultimatum" "Ultimatum Aspect"
+	MapTier 16
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+
+Show
+	Class Map Memory
 	MapTier 16
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
@@ -1049,7 +1052,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds" "Judging Voices" "Duality" "The One That Got Away" "Magnum Opus" "Imperfect Memories" "The Apothecary"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds" "Judging Voices" "Duality" "The One That Got Away" "Magnum Opus" "Imperfect Memories" "The Apothecary" "Doryani's Epiphany" "The Shieldbearer" "Choking Guilt" "The Price of Devotion"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
