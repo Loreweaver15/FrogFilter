@@ -736,7 +736,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Broken Truce" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "Azure Rage" "The Leviathan" "Astral Projection" "Gemcutter's Mercy" "Checkmate" "Lethean Temptation" "Something Dark"
+	BaseType "Broken Truce" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "Azure Rage" "The Leviathan" "Astral Protection" "Gemcutter's Mercy" "Checkmate" "Lethean Temptation" "Something Dark"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
