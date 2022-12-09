@@ -308,6 +308,18 @@ Show
 	SetTextColor 200 155 0
 
 Show
+	Class Sanctified Relic
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	Class Relic
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
 	Class Brooch
 	ItemLevel >= 84
 	SetBorderColor 0 200 0
@@ -680,7 +692,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" 
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -736,7 +748,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "Broken Truce" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "Azure Rage" "The Leviathan" "Astral Protection" "Gemcutter's Mercy" "Checkmate" "Lethean Temptation" "Something Dark"
+	BaseType "Man With Bear" "Alivia's Grace" "Auspicious Ambitions" "The Wedding Gift" "Ever-Changing" "A Dusty Memory" "The Return of the Rat" "The Finishing Touch"
 	SetTextColor 138 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 20 75 20
@@ -819,13 +831,6 @@ Show
 
 Show
 	Class Blueprint Expedition
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	MinimapIcon 1 Red Square
-	PlayEffect White
-
-Show
-	BaseType "Mirrored Tablet"
 	SetBorderColor 255 0 0
 	SetFontSize 42
 	MinimapIcon 1 Red Square
@@ -1059,7 +1064,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds" "Judging Voices" "Duality" "The One That Got Away" "Magnum Opus" "Imperfect Memories" "The Apothecary" "Doryani's Epiphany" "The Shieldbearer" "Choking Guilt" "The Price of Devotion"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Iron Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds" "Judging Voices" "Duality" "The One That Got Away" "Magnum Opus" "Imperfect Memories" "The Apothecary" "Doryani's Epiphany" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "Divine Beauty" "The Insane Cat"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
