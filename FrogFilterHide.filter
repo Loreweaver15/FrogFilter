@@ -692,7 +692,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
