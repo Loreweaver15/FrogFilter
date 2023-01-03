@@ -144,19 +144,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Convoking Wand"
-	ItemLevel >= 84
-	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-	SetBorderColor 255 0 119
-	SetTextColor 220 14 70
-	SetBackgroundColor 255 255 255
-	SetFontSize 42
-	PlayAlertSound 8 100
-	MinimapIcon 0 Yellow Circle
-	PlayEffect Red
-
-Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -165,7 +153,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	HasSearingExarchImplicit >= 1
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -174,7 +162,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Steel Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	HasEaterOfWorldsImplicit >= 1
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -243,17 +231,6 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Convoking Wand"
-	ItemLevel >= 84
-	SetBorderColor 255 100 150
-	SetBackgroundColor 255 255 255
-	SetTextColor 105 25 25
-	SetFontSize 42
-	PlayAlertSound 8 100
-	MinimapIcon 2 Yellow Circle
-	PlayEffect Yellow
-
-Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
 	ItemLevel >= 84
 	SetBorderColor 255 100 150
@@ -265,7 +242,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	Rarity Normal
 	SetBorderColor 255 100 150
 	SetFontSize 42
@@ -277,7 +254,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	Rarity Magic
 	SetBorderColor 255 100 150
 	SetFontSize 42
@@ -289,7 +266,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	Rarity Rare
 	SetBorderColor 255 100 150
 	SetTextColor 200 155 0
@@ -796,8 +773,18 @@ Show
 	PlayEffect Red
 
 Show
-	Class Map Memory
+	Class Map
 	MapTier 16
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+
+Show
+	Class Memory
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
