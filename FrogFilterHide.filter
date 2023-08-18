@@ -323,7 +323,7 @@ Show
 	PlayEffect Green
 
 Show
-	Class Trinket Cloak Brooch Tool Gear
+	Class Trinket Cloak Brooch Tool Gear Relic
 	SetBorderColor 0 200 0
 	SetFontSize 42
 	PlayEffect Green
@@ -512,6 +512,15 @@ Show
 	PlayEffect Blue
 
 Show
+	Class Sanctum Research
+	SetTextColor 195 195 195
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
 	BaseType "Maven's Invitation" "Writhing Invitation" "Screaming Invitation" "Polaric Invitation" "Incandescent Invitation"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
@@ -678,7 +687,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation" "Igneous Geode" "Crystalline Geode"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -732,13 +741,13 @@ Show
 	MinimapIcon 0 Green Star
 	PlayEffect Red
 
-Show
-	Class Divination Card
-	BaseType "Soul Quenched" "Poisoned Faith" "A Chilling Wind" "Matryoshka"
-	SetTextColor 138 128 255
-	SetBorderColor 128 128 255
-	SetBackgroundColor 20 75 20
-	SetFontSize 42
+#Show
+#	Class Divination Card
+#	BaseType
+#	SetTextColor 138 128 255
+#	SetBorderColor 128 128 255
+#	SetBackgroundColor 20 75 20
+#	SetFontSize 42
 
 Show
 	Class Divination Card
@@ -855,7 +864,14 @@ Show
 	MinimapIcon 2 Red Circle
 
 Show
-	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Magmatic Ore"
+	BaseType "Hinekora's Lock" "Tattoo" "Omen"
+	SetBorderColor 255 25 0
+	SetTextColor 155 255 0
+	SetFontSize 42
+	PlayEffect Green
+
+Show
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Silver Coin"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -1060,7 +1076,7 @@ Show
 
 Show
 	Class Divination Card
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Rusted Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds" "Judging Voices" "Duality" "The One That Got Away" "Magnum Opus" "Imperfect Memories" "The Apothecary" "Doryani's Epiphany" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "Divine Beauty" "The Insane Cat" "Brother's Gift"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Nurse" "Abandoned Wealth" "The Immortal" "The Rusted Bard" "Seven Years Bad Luck" "The Damned" "The Demon" "Succor of the Sinless" "Etched in Blood" "The Samurai's Eye" "The Price of Loyalty" "Immortal Resolve" "Nook's Crown" "The Greatest Intentions" "Desecrated Virtue" "Unrequited Love" "Brother's Stash" "Fateful Meeting" "The Astromancer" "Love Through Ice" "The Patient"  "Deadly Joy" "Luminous Trove" "Eternal Bonds" "Judging Voices" "Duality" "The One That Got Away" "Magnum Opus" "Imperfect Memories" "The Apothecary" "Doryani's Epiphany" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "Divine Beauty" "The Insane Cat" "Brother's Gift" "The Fortunate" "Fire of Unknown Origin"
 	SetTextColor 0 128 255
 	SetBorderColor 128 128 255
 	SetBackgroundColor 255 255 255
