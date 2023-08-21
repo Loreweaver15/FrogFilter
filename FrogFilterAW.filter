@@ -864,7 +864,7 @@ Show
 	MinimapIcon 2 Red Circle
 
 Show
-	BaseType "Hinekora's Lock" "Tattoo" "Omen"
+	BaseType "Hinekora's Lock" "Tattoo" "Omen of"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
