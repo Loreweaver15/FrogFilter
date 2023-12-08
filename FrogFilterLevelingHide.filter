@@ -72,7 +72,7 @@ Show
 
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	ItemLevel >= 84
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
@@ -84,7 +84,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	ItemLevel >= 84
 	HasSearingExarchImplicit >= 1
 	SetBorderColor 255 0 119
@@ -96,7 +96,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	ItemLevel >= 84
 	HasEaterOfWorldsImplicit >= 1
 	SetBorderColor 255 0 119
@@ -171,7 +171,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -180,7 +180,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	HasSearingExarchImplicit >= 1
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -189,7 +189,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Iolite Ring" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	HasEaterOfWorldsImplicit >= 1
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -231,7 +231,7 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	ItemLevel >= 84
 	SetBorderColor 255 100 150
 	SetBackgroundColor 255 255 255
@@ -248,7 +248,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	Rarity Normal
 	SetBorderColor 255 100 150
 	SetFontSize 42
@@ -260,7 +260,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	Rarity Magic
 	SetBorderColor 255 100 150
 	SetFontSize 42
@@ -273,7 +273,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield"
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechalarm Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	Rarity Rare
 	SetBorderColor 255 100 150
 	SetTextColor 200 155 0
@@ -345,14 +345,6 @@ Show
 	SetBackgroundColor 255 255 255
 	PlayAlertSound 8 100
 	PlayEffect Green
-
-Show
-	Class Metamorph Sample
-	SetBorderColor 255 128 0
-	SetTextColor 255 128 0
-	SetFontSize 42
-	PlayEffect Blue
-	MinimapIcon 2 Blue Circle
 
 Show
 	Class Divination Card
@@ -687,7 +679,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Elevated Sextant" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation" "Hinekora's Lock" 
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -741,13 +733,13 @@ Show
 	MinimapIcon 0 Green Star
 	PlayEffect Red
 
-#Show
-#	Class Divination Card
-#	BaseType
-#	SetTextColor 138 128 255
-#	SetBorderColor 128 128 255
-#	SetBackgroundColor 20 75 20
-#	SetFontSize 42
+Show
+	Class Divination Card
+	BaseType "I See Brothers" "Assassin's Gift" "Eldritch Perfection" "Who Asked"
+	SetTextColor 138 128 255
+	SetBorderColor 128 128 255
+	SetBackgroundColor 20 75 20
+	SetFontSize 42
 
 Show
 	Class Divination Card
@@ -780,7 +772,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Engraved Ultimatum" "Ultimatum Aspect"
+	BaseType "Engraved Ultimatum" "Vaal Aspect"
 	MapTier 16
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
@@ -864,14 +856,21 @@ Show
 	MinimapIcon 2 Red Circle
 
 Show
-	BaseType "Hinekora's Lock" "Tattoo" "Omen of"
+	BaseType "Tattoo" "Omen of"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
 	PlayEffect Green
 
 Show
-	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Silver Coin"
+	Class Tincture Charm Corpses
+	SetBorderColor 255 25 0
+	SetTextColor 155 255 0
+	SetFontSize 42
+	PlayEffect Green
+
+Show
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Bestiary Orb" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -921,7 +920,7 @@ Show
 	MinimapIcon 1 Green Star
 
 Show
-	GemQualityType Anomalous Divergent Phantasmal
+	TransfiguredGem True
 	SetBorderColor 255 0 0
 	SetFontSize 42
 
