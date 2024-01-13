@@ -1162,25 +1162,6 @@ Show
 	PlayEffect Yellow
 
 Show
-	Class Ring
-	ItemLevel >= 85
-	Rarity Normal Magic
-	SetBorderColor 255 0 200
-
-Show
-	Class Amulet Belt Quiver
-	ItemLevel >= 86
-	Rarity Normal Magic
-	SetBorderColor 255 0 200
-
-Show
-	Class Two
-	BaseType "Maelstr"
-	Rarity Normal
-	Corrupted False
-	SetBorderColor 255 255 0
-
-Show
 	Class Jewel
 	Rarity Rare
 	ItemLevel >= 60
@@ -1250,41 +1231,9 @@ Show
 	SetFontSize 42
 	PlayAlertSound 11 100
 
-Show
-	Class Ring
-	Rarity Rare
-	ItemLevel >= 85
-	SetBorderColor 255 0 119
-	SetTextColor 200 155 0
-	SetFontSize 42
-
 
 Show
-	Class Amulet Belt Quiver
-	Rarity Rare
-	ItemLevel >= 86
-	SetBorderColor 255 0 119
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Quiver
-	Rarity Rare
-	ItemLevel >= 75
-	SetBorderColor 24 121 180
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Quiver
-	Rarity Rare
-	ItemLevel >= 60
-	SetBorderColor 255 255 119
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-Show
-	Class Ring Amulet Belt Quiver Jewel
+	Class Jewel
 	Rarity Rare
 	ItemLevel < 60
 	SetTextColor 200 155 0
@@ -1336,25 +1285,6 @@ Show
 	SetTextColor 200 155 0
 	SetFontSize 42
 
-
-Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Zodiac Leather" "Titan Greaves" "Slink Boots" "Sorcerer Boots"  "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Titanium Spirit Shield" "Royal Burgonet"  "Ezomyte Tower Shield" "Astral Plate" "Serpentscale Gauntlets"
-	ItemLevel >= 86
-	Rarity Normal Magic
-	SetBorderColor 255 0 200
-
-Show
-	BaseType "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Sambar Sceptre" "Void Sceptre"
-	ItemLevel >= 85
-	Rarity Normal Magic
-	SetBorderColor 255 0 200
-
-Show
-	BaseType "Imperial Staff" "Profane Wand" "Opal Wand" "Tornado Wand"
-	ItemLevel >= 84
-	Rarity Normal Magic
-	SetBorderColor 255 0 200
-
 Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
@@ -1367,14 +1297,6 @@ Show
 	PlayEffect Yellow
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
-	Rarity Rare
-	ItemLevel >= 75
-	SetBorderColor 24 121 180
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-Show
 	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	ItemLevel >= 60
@@ -1384,16 +1306,6 @@ Show
 	PlayAlertSound 11 100
 
 Show
-	BaseType "Vaal Regalia" "Glorious Plate" "Assassin's Garb" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
-	Rarity Rare 
-	ItemLevel >= 60
-	SetBorderColor 255 255 119
-	SetTextColor 200 155 0
-	SetFontSize 42
-
-
-
-Show
 	Class Body Helm Boot Shield
 	Rarity Rare
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
@@ -1410,50 +1322,12 @@ Show
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
 	PlayAlertSound 11 100
-
-Show
-	Class Wand Staves	
-	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 0 119
-	SetTextColor 200 155 0
-
-Show
-	Class Body Helm Boot Shield
-	Rarity Rare
-	ItemLevel >= 86
-	SetBorderColor 255 0 119
-	SetTextColor 200 155 0
-
-Show
-	Class One Two Bow Claws Daggers Glove
-	Rarity Rare
-	ItemLevel >= 85
-	SetBorderColor 255 0 119
-	SetTextColor 200 155 0
-
 
 Show
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	SetTextColor 220 14 70
 	SetBorderColor 220 14 70
 	PlayAlertSound 11 100
-
-Show
-	Rarity Rare
-	ItemLevel >= 75
-	SetBorderColor 24 121 180
-	SetTextColor 200 155 0
-
-Show
-	Rarity Rare
-	ItemLevel >= 60
-	SetBorderColor 255 255 119
-	SetTextColor 200 155 0
-
-Show
-	Rarity Rare
-	SetTextColor 200 155 0
 
 Show
 	BaseType "Gavel"
@@ -1481,12 +1355,3 @@ Show
 	Class Armour Gloves Helmet Shield Bow One Two Boots
 	Quality = 20
 	SetBorderColor 0 0 255
-
-Show
-	Class Gem
-
-Show
-	Class Flask
-	SetTextColor 255 0 119
-
-Hide
