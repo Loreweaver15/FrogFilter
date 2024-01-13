@@ -1355,3 +1355,5 @@ Show
 	Class Armour Gloves Helmet Shield Bow One Two Boots
 	Quality = 20
 	SetBorderColor 0 0 255
+
+Hide
