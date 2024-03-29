@@ -747,7 +747,7 @@ Show
 
 Show
 	Class Map
-	MapTier >=16
+	MapTier >= 16
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
