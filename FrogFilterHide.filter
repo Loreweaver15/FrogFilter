@@ -354,13 +354,6 @@ Show
 	SetBorderColor 128 128 255
 
 Show
-	Class Corpse
-	SetTextColor 255 128 0
-	SetFontSize 42
-	PlayEffect Blue
-	MinimapIcon 2 Blue Circle
-
-Show
 	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Indigo Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Time-light Scroll" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion" "Allflame Ember" "Life Rune" "Sun Rune" "Bound Rune" "War Rune" "River Rune" "Bounty Rune" "Journey Rune" "Mountain Rune" "Time Rune" "Power Rune"
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
@@ -825,7 +818,7 @@ Show
 	PlayEffect Green
 
 Show
-	Class Tincture Charm Corpses
+	Class Charm Corpses
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
