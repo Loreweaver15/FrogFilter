@@ -291,7 +291,7 @@ Show
 	SetFontSize 42
 
 Show
-	Class Relic
+	Class Relic Idol
 	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
 	SetFontSize 42
@@ -881,14 +881,12 @@ Show
 
 Show
 	Class Gem Flask Tincture
-	Rarity Normal
-	Quality = 20
+	Quality >= 20
 	SetBorderColor 0 255 128
 	SetFontSize 42
 
 Show
 	Class Gem Flask Tincture
-	Rarity Normal
 	Quality > 0
 	SetBorderColor 0 255 128
 
