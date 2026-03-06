@@ -352,6 +352,15 @@ Show
 	PlayEffect Green
 
 Show
+	BaseType "Refracting Fog" "Essence of Desolation" "Flesh of Xesht" "Sinistral Catalyst" "Dextral Catalyst" "Volatile Vaal Orb" "Crystallised Rancour" "Astrolabe" "Coin of Restoration" "Coin of Desecration" "Coin of Knowledge" "Coin of Power" "Coin of Skill" "Cord Belt"
+	SetTextColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 56 56 128
+	PlayAlertSound 8 100
+	PlayEffect Purple
+
+Show
 	Class Divination Card
 	BaseType "The Catalyst"
 	SetFontSize 42
@@ -359,7 +368,7 @@ Show
 	SetBorderColor 128 128 255
 
 Show
-	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Indigo Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Time-light Scroll" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion" "Allflame Ember" "Runegraft" "Implant"
+	BaseType "Incubator" "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Black Oil" "Indigo Oil" "Remnant of Corruption" "Essence of" "Catalyst" "Delirium Orb" "Infused Engineer's Orb" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Time-light Scroll" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion" "Allflame Ember"
 	SetBorderColor 255 128 0
 	SetTextColor 255 128 0
 	SetFontSize 42
@@ -520,6 +529,16 @@ Show
 Show
 	Class Map
 	BaseType "Winged" "The Maven's Writ" "Blood-filled Vessel"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+
+Show
+	BaseType "Memory of Trauma" "Memory of Reverence" "Memory of Loneliness" "The Black Barya"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -743,6 +762,17 @@ Show
 	PlayEffect Red
 
 Show
+	BaseType "Valdo Map" "Shaper Guardian Map" "Nightmare Map"
+	MapTier >= 16
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 8 100
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+
+Show
 	Class Map
 	MapTier >= 16
 	SetTextColor 105 25 25
@@ -820,7 +850,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Iron Net" "Rope Net" "Steel Net" "Harbinger's Shard" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Veiled Scarab"
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Iron Net" "Rope Net" "Steel Net" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Veiled Scarab"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -836,9 +866,29 @@ Show
 
 
 Show
-	BaseType "Chaos Shard" "Alchemy Shard" "Regal Shard" "Jeweller's Orb" "Binding Shard"
+	BaseType "Chaos Shard" "Alchemy Shard" "Regal Shard" "Jeweller's Orb"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
+
+Show
+	Class Gem
+	BaseType "Greater Spell Cascade Support" "Eclipse Support" "Invert the Rules Support" "Cast on Ward Break Support" "Vaal Sacrifice Support" "Greater Spell Echo Support" "Vaal Temptation Support" "Machinations Support" "Pyre Support" "Bonespire Support" "Foulgrasp Support" "Hiveborn Support" "Scornful Herald Support" "Cull the Weak Support" "Greater Ancestral Call Support" "Fissure Support" "Hextoad Support" "Hexpass Support" "Greater Fork Support" "Greater Chain Support" "Lethal Dose Support" "Companionship Support" "Divine Sentinel Support" "Annihilation Support" "Invention Support" "Greater Kinetic Instability Support" "Cooldown Recovery Support" "Voidstorm Support" "Void Shockwave Support" "Eldritch Blasphemy Support" "Gluttony Support" "Overheat Support" "Greater Multistrike Support" "Congregation Support" "Frostmage Support" "Greater Devour Support" "Greater Unleash Support" "Pacifism Support" "Bloodsoaked Banner Support" "Minion Pact Support" "Unholy Trinity Support" "Overloaded Intensity Support" "Transfusion Support" "Excommunicate Support" Exemplar Support" "Blessed Call Support" "Hallow Support"
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetBackgroundColor 0 185 0
+	SetFontSize 42
+	PlayEffect Green
+	MinimapIcon 0 Green Star
+
+Show
+	Class Gem
+	Imbued True
+	SetTextColor 105 25 25
+	SetBorderColor 255 0 0
+	SetBackgroundColor 0 185 0
+	SetFontSize 42
+	PlayEffect Green
+	MinimapIcon 1 Green Star
 
 Show
 	Class Gem
@@ -1087,7 +1137,7 @@ Show
 	SetFontSize 42
 
 Show
-	BaseType "Engineer's Shard" "Horizon Shard" "Armourer's Scrap" "Blacksmith's Whetstone"
+	BaseType "Armourer's Scrap" "Blacksmith's Whetstone"
 	SetTextColor 0 255 128
 	SetBorderColor 128 128 255
 
