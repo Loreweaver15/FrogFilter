@@ -288,6 +288,7 @@ Show
 	BaseType "Talisman"
 	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
+	SetFontSize 42
 
 Show
 	Class Sanctified Relic
@@ -500,6 +501,14 @@ Show
 	SetBorderColor 0 255 0
 
 Show
+	BaseType "Enshrouded Gloves" "Enshrouded Boots" "Enshrouded Helmet" "Enshrouded Shield" "Enshrouded Body Armour"
+	SetFontSize 42
+	SetBorderColor 175 96 37
+	PlayAlertSound 8 100
+	MinimapIcon 1 Brown Diamond
+	PlayEffect Brown
+
+Show
 	Rarity Unique
 	SetFontSize 42
 	SetBorderColor 175 96 37
@@ -549,7 +558,7 @@ Show
 
 Show
 	Class Map
-	BaseType "Scarab"
+	BaseType "Scarab" "Mercenary Warrant"
 	SetTextColor 195 195 195
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -558,7 +567,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification" "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest" "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Reality Fragment" "Devouring Fragment" "Blazing Fragment" "An Audience With The King" "Traumatic Fragment" "Reverent Fragment" "Lonely Fragment" "Hivebrain Gland"
+	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification" "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest" "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Reality Fragment" "Devouring Fragment" "Blazing Fragment" "An Audience With The King" "Traumatic Fragment" "Reverent Fragment" "Lonely Fragment" "Hivebrain Gland" "Zorath's Eye"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -636,6 +645,15 @@ Show
 	PlayEffect Red
 
 Show
+	BaseType "Sandy Seabed Chart" "Coral Forest Chart" "Coral Reef Chart"
+	SetTextColor 195 195 195
+	SetBorderColor 255 0 0
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 1 Red Triangle
+	PlayEffect Red
+
+Show
 	BaseType "Sacrifice at Midnight"
 	SetTextColor 195 195 195
 	SetBorderColor 255 0 0
@@ -673,7 +691,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Prismatic Oil" "Reflecting Mist" "Exalted Orb" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation" "Hinekora's Lock" "Valdo's Puzzle Box" "Veiled Exalted Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Prismatic Oil" "Reflecting Mist" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation" "Hinekora's Lock" "Valdo's Puzzle Box" "Veiled Exalted Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Scrying Orb" "Message in a Bottle"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -850,7 +868,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Iron Net" "Rope Net" "Steel Net" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Veiled Scarab"
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Iron Net" "Rope Net" "Steel Net" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Veiled Scarab" "Enshrouding Crystal" "Ducat" "Exalted Orb"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -937,7 +955,7 @@ Show
 
 Show
 	Class Gem
-	BaseType "Vaal"
+	BaseType "Vaal" "Beidat" "Ghorr" "K'Tash" "Lycia"
 	SetBorderColor 0 255 128
 
 Show
@@ -1149,6 +1167,11 @@ Show
 
 Show
 	Class Gold
+	SetTextColor 200 200 0
+	SetBorderColor 200 200 0
+
+Show
+	BaseType Dead Man's Sulphur"
 	SetTextColor 200 200 0
 	SetBorderColor 200 200 0
 
