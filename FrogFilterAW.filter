@@ -947,7 +947,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Iron Net" "Rope Net" "Steel Net" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Veiled Thread" "Enshrouding Crystal" "Ducat" "Exalted Orb"
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Iron Net" "Rope Net" "Steel Net" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Enshrouding Crystal" "Ducat" "Exalted Orb"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
