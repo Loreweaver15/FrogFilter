@@ -200,7 +200,7 @@ Show
 Show
 	BaseType "Ornate Quiver"
 	Rarity Normal Magic Rare
-	SetBorderColor 255 100 150
+	SetBorderColor 255 0 119
 	SetBackgroundColor 255 255 255
 	SetTextColor 105 25 25
 	SetFontSize 42
@@ -210,13 +210,36 @@ Show
 
 Show
 	Class Wombgift
-	SetBorderColor 255 100 150
+	SetBorderColor 255 0 119
 	SetFontSize 42
 
 Show
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	ItemLevel >= 86
-	SetBorderColor 255 100 150
+	UnidentifiedItemTier >= 4
+	SetBorderColor 255 0 119
+	SetBackgroundColor 255 255 255
+	SetTextColor 105 25 25
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Iolite Ring" 
+	ItemLevel >= 85
+	UnidentifiedItemTier >= 4
+	SetBorderColor 255 0 119
 	SetBackgroundColor 255 255 255
 	SetTextColor 105 25 25
 	SetFontSize 42
@@ -227,7 +250,18 @@ Show
 Show
 	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Iolite Ring" 
 	ItemLevel >= 85
-	SetBorderColor 255 100 150
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+	SetFontSize 42
+	PlayAlertSound 8 100
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
+	ItemLevel >= 84
+	UnidentifiedItemTier >= 4
+	SetBorderColor 255 0 119
 	SetBackgroundColor 255 255 255
 	SetTextColor 105 25 25
 	SetFontSize 42
@@ -238,9 +272,8 @@ Show
 Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	ItemLevel >= 84
-	SetBorderColor 255 100 150
-	SetBackgroundColor 255 255 255
-	SetTextColor 105 25 25
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
 	SetFontSize 42
 	PlayAlertSound 8 100
 	MinimapIcon 2 Yellow Circle
@@ -249,40 +282,90 @@ Show
 Show
 	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets" 
 	Rarity Normal
-	SetBorderColor 255 100 150
-	SetFontSize 42
+	SetBorderColor 255 0 119
 
 Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	Rarity Normal
-	SetBorderColor 255 100 150
-	SetFontSize 42
+	SetBorderColor 255 0 119
 
 Show
 	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	Rarity Magic
-	SetBorderColor 255 100 150
+	UnidentifiedItemTier >= 4
+	SetBorderColor 255 0 119
 	SetFontSize 42
+
+Show
+	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	Fated True
+	Rarity Magic
+	SetBorderColor 255 0 119
+
+Show
+	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	Rarity Magic
+	SetBorderColor 255 0 119
 
 Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
 	Rarity Magic
-	SetBorderColor 255 100 150
+	UnidentifiedItemTier >= 4
+	SetBorderColor 255 0 119
 	SetFontSize 42
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
+	Fated True
+	Rarity Magic
+	SetBorderColor 255 0 119
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
+	Rarity Magic
+	SetBorderColor 255 0 119
 
 Show
 	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 	Rarity Rare
-	SetBorderColor 255 100 150
+	UnidentifiedItemTier >= 4
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+Show
+	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	Fated True
+	Rarity Rare
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+
+Show
+	BaseType "Steel Ring" "Nameless Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Vermillion Ring" "Cerulean Ring" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Fugitive Boots" "Artillery Quiver" "Grasping Mail" "Seaglass Amulet"  "Apothecary's Gloves" "Iolite Ring" "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+	Rarity Rare
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
+	Rarity Rare
+	UnidentifiedItemTier >= 4
+	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
 	SetFontSize 42
 
 Show
 	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
+	Fated True
 	Rarity Rare
-	SetBorderColor 255 100 150
+	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
-	SetFontSize 42
+
+Show
+	BaseType "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom" "Alternating" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Mechanical Belt" "Micro-Distillery Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring" "Focused Amulet"
+	Rarity Rare
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
 
 Show
 	BaseType "Talisman"
@@ -344,7 +427,7 @@ Show
 	MinimapIcon 2 Red Diamond
 
 Show
-	BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Delirium" "Essence of Horror"
+	BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Delirium" "Essence of Horror" "Essence of Trickery"
 	SetTextColor 191 28 253
 	SetBorderColor 191 28 253
 	SetFontSize 42
@@ -353,7 +436,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Refracting Fog" "Essence of Desolation" "Flesh of Xesht" "Sinistral Catalyst" "Dextral Catalyst" "Volatile Vaal Orb" "Crystallised Rancour" "Astrolabe" "Coin of Restoration" "Coin of Desecration" "Coin of Knowledge" "Coin of Power" "Coin of Skill" "Cord Belt"
+	BaseType "Refracting Fog" "Essence of Desolation" "Flesh of Xesht" "Sinistral Catalyst" "Dextral Catalyst" "Volatile Vaal Orb" "Crystallised Rancour" "Astrolabe" "Cord Belt"
 	SetTextColor 255 255 255
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -501,7 +584,7 @@ Show
 	SetBorderColor 0 255 0
 
 Show
-	BaseType "Enshrouded Gloves" "Enshrouded Boots" "Enshrouded Helmet" "Enshrouded Shield" "Enshrouded Body Armour"
+	BaseType "Enshrouded Gloves" "Enshrouded Boots" "Enshrouded Helmet" "Enshrouded Shield" "Enshrouded Body Armour" "Enshrouded Quiver"
 	SetFontSize 42
 	SetBorderColor 175 96 37
 	PlayAlertSound 8 100
@@ -558,7 +641,7 @@ Show
 
 Show
 	Class Map
-	BaseType "Scarab" "Mercenary Warrant"
+	BaseType "Thread" "Mercenary Warrant"
 	SetTextColor 195 195 195
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -568,16 +651,6 @@ Show
 
 Show
 	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification" "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest" "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Reality Fragment" "Devouring Fragment" "Blazing Fragment" "An Audience With The King" "Traumatic Fragment" "Reverent Fragment" "Lonely Fragment" "Hivebrain Gland" "Zorath's Eye"
-	SetTextColor 105 25 25
-	SetBorderColor 255 0 0
-	SetFontSize 42
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 8 100
-	MinimapIcon 1 Red Triangle
-	PlayEffect Red
-
-Show
-	BaseType "Mortal Ignorance" "Mortal Rage" "Mortal Hope" "Mortal Grief"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -691,7 +764,7 @@ Show
 	PlayEffect Red
 
 Show
-	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Prismatic Oil" "Reflecting Mist" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation" "Hinekora's Lock" "Valdo's Puzzle Box" "Veiled Exalted Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Scrying Orb" "Message in a Bottle"
+	BaseType "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Reflective Oil" "Prismatic Oil" "Reflecting Mist" "Tempering Orb" "Tailoring Orb" "Facetor's Lens" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Eternal Orb" "Mirror Shard" "Blessing of Chayula" "Exalted Shard" "Crescent Splinter" "Regrading Lens" "Sacred Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Divine Teardrop" "Sacred Crystallised Lifeforce" "Fracturing Orb" "Fracturing Shard" "Lycia's Invocation" "Hinekora's Lock" "Valdo's Puzzle Box" "Veiled Exalted Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Scrying Orb" "Message in a Bottle" "Royal Visage" "Soul Core"
 	SetTextColor 105 25 25
 	SetBorderColor 255 0 0
 	SetFontSize 42
@@ -778,6 +851,12 @@ Show
 	PlayAlertSound 8 100
 	MinimapIcon 0 Red Square
 	PlayEffect Red
+
+Show
+	Class Viscera
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+	SetFontSize 42
 
 Show
 	BaseType "Valdo Map" "Shaper Guardian Map" "Nightmare Map"
@@ -868,7 +947,7 @@ Show
 	PlayEffect Green
 
 Show
-	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Iron Net" "Rope Net" "Steel Net" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Veiled Scarab" "Enshrouding Crystal" "Ducat" "Exalted Orb"
+	BaseType "Regal Orb" "Vaal Orb" "Orb of Regret" "Blessed Orb" "Orb of Alchemy" "Annulment Shard" "Ancient Shard" "Gemcutter's Prism" "Orb of Binding" "Orb of Fusing" "Orb of Chance" "Iron Net" "Rope Net" "Steel Net" "Orb of Annulment" "Harbinger's Orb" "Ritual Splinter" "Ritual Vessel" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Recombinator" "Lifeforce" "Veiled Thread" "Enshrouding Crystal" "Ducat" "Exalted Orb"
 	SetBorderColor 255 25 0
 	SetTextColor 155 255 0
 	SetFontSize 42
@@ -959,7 +1038,7 @@ Show
 	SetBorderColor 0 255 128
 
 Show
-	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye" "Cluster Jewel"
+	BaseType "Ghastly Eye" "Murderous Eye" "Hypnotic Eye" "Searching Eye" "Cluster Jewel" "Mycelium Core"
 	ItemLevel >= 84
 	SetBorderColor 255 0 119
 	SetTextColor 220 14 70
@@ -1299,11 +1378,27 @@ Show
 Show
 	Class Ring
 	Rarity Rare
+	UnidentifiedItemTier >= 4
 	ItemLevel >= 85
 	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
 	SetFontSize 42
 
+Show
+	Class Ring
+	Rarity Rare
+	ItemLevel >= 85
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+
+Show
+	Class Amulet Belt Quiver
+	Rarity Rare
+	UnidentifiedItemTier >= 4
+	ItemLevel >= 86
+	SetBorderColor 255 0 119
+	SetTextColor 200 155 0
+	SetFontSize 42
 
 Show
 	Class Amulet Belt Quiver
@@ -1311,11 +1406,11 @@ Show
 	ItemLevel >= 86
 	SetBorderColor 255 0 119
 	SetTextColor 200 155 0
-	SetFontSize 42
 
 Show
 	Class Ring Amulet Belt Quiver
 	Rarity Rare
+	UnidentifiedItemTier >= 4
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
 	SetTextColor 200 155 0
@@ -1323,9 +1418,50 @@ Show
 
 Show
 	Class Ring Amulet Belt Quiver
+	Fated True
+	Rarity Rare
+	ItemLevel >= 75
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+
+Show
+	Class Ring Amulet Belt Quiver
+	Rarity Rare
+	ItemLevel >= 75
+	SetBorderColor 24 121 180
+	SetTextColor 200 155 0
+
+Show
+	Class Ring Amulet Belt Quiver
+	Rarity Rare
+	UnidentifiedItemTier >= 4
+	ItemLevel >= 60
+	SetBorderColor 255 255 119
+	SetTextColor 200 155 0
+	SetFontSize 42
+
+
+Show
+	Class Ring Amulet Belt Quiver
+	Fated True
+	Rarity Rare
+	ItemLevel >= 60
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+
+Show
+	Class Ring Amulet Belt Quiver
 	Rarity Rare
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
+	SetTextColor 200 155 0
+
+Show
+	Class Ring Amulet Belt Quiver Jewel
+	Fated True
+	Rarity Rare
+	ItemLevel < 60
+	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
 	SetFontSize 42
 
@@ -1440,10 +1576,26 @@ Show
 Show
 	BaseType "Legion Plate" "Royal Plate" "Astral Leather" "Syndicate's Garb" "Nightweave Robe" "Twilight Regalia" "Marshall's Brigandine" "Conquest Lamellar" "Paladin's Hauberk" "Sacred Chainmail" "Torturer Garb" "Necrotic Armour" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Conqueror's Helmet" "Giantslayer Helmet" "Grizzly Pelt" "Majestic Pelt" "Sunfire Circlet" "Lich's Circlet" "Conquest Helmet" "Haunted Bascinet"  "Paladin Crown" "Divine Crown" "Ancient Mask" "Torturer's Mask" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" 
 	Rarity Rare
+	UnidentifiedItemTier >= 4
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
 	SetTextColor 200 155 0
 	SetFontSize 42
+
+Show
+	BaseType "Legion Plate" "Royal Plate" "Astral Leather" "Syndicate's Garb" "Nightweave Robe" "Twilight Regalia" "Marshall's Brigandine" "Conquest Lamellar" "Paladin's Hauberk" "Sacred Chainmail" "Torturer Garb" "Necrotic Armour" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Conqueror's Helmet" "Giantslayer Helmet" "Grizzly Pelt" "Majestic Pelt" "Sunfire Circlet" "Lich's Circlet" "Conquest Helmet" "Haunted Bascinet"  "Paladin Crown" "Divine Crown" "Ancient Mask" "Torturer's Mask" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" 
+	Fated True
+	Rarity Rare
+	ItemLevel >= 75
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+
+Show
+	BaseType "Legion Plate" "Royal Plate" "Astral Leather" "Syndicate's Garb" "Nightweave Robe" "Twilight Regalia" "Marshall's Brigandine" "Conquest Lamellar" "Paladin's Hauberk" "Sacred Chainmail" "Torturer Garb" "Necrotic Armour" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Conqueror's Helmet" "Giantslayer Helmet" "Grizzly Pelt" "Majestic Pelt" "Sunfire Circlet" "Lich's Circlet" "Conquest Helmet" "Haunted Bascinet"  "Paladin Crown" "Divine Crown" "Ancient Mask" "Torturer's Mask" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" 
+	Rarity Rare
+	ItemLevel >= 75
+	SetBorderColor 24 121 180
+	SetTextColor 200 155 0
 
 Show
 	BaseType "Legion Plate" "Royal Plate" "Astral Leather" "Syndicate's Garb" "Nightweave Robe" "Twilight Regalia" "Marshall's Brigandine" "Conquest Lamellar" "Paladin's Hauberk" "Sacred Chainmail" "Torturer Garb" "Necrotic Armour" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Conqueror's Helmet" "Giantslayer Helmet" "Grizzly Pelt" "Majestic Pelt" "Sunfire Circlet" "Lich's Circlet" "Conquest Helmet" "Haunted Bascinet"  "Paladin Crown" "Divine Crown" "Ancient Mask" "Torturer's Mask" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" 
@@ -1456,12 +1608,27 @@ Show
 
 Show
 	BaseType "Legion Plate" "Royal Plate" "Astral Leather" "Syndicate's Garb" "Nightweave Robe" "Twilight Regalia" "Marshall's Brigandine" "Conquest Lamellar" "Paladin's Hauberk" "Sacred Chainmail" "Torturer Garb" "Necrotic Armour" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Conqueror's Helmet" "Giantslayer Helmet" "Grizzly Pelt" "Majestic Pelt" "Sunfire Circlet" "Lich's Circlet" "Conquest Helmet" "Haunted Bascinet"  "Paladin Crown" "Divine Crown" "Ancient Mask" "Torturer's Mask" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" 
-	Rarity Rare 
+	Rarity Rare
+	UnidentifiedItemTier >= 4
 	ItemLevel >= 60
 	SetBorderColor 255 255 119
 	SetTextColor 200 155 0
 	SetFontSize 42
 
+Show
+	BaseType "Legion Plate" "Royal Plate" "Astral Leather" "Syndicate's Garb" "Nightweave Robe" "Twilight Regalia" "Marshall's Brigandine" "Conquest Lamellar" "Paladin's Hauberk" "Sacred Chainmail" "Torturer Garb" "Necrotic Armour" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Conqueror's Helmet" "Giantslayer Helmet" "Grizzly Pelt" "Majestic Pelt" "Sunfire Circlet" "Lich's Circlet" "Conquest Helmet" "Haunted Bascinet"  "Paladin Crown" "Divine Crown" "Ancient Mask" "Torturer's Mask" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" 
+	Fated True
+	Rarity Rare 
+	ItemLevel >= 60
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+
+Show
+	BaseType "Legion Plate" "Royal Plate" "Astral Leather" "Syndicate's Garb" "Nightweave Robe" "Twilight Regalia" "Marshall's Brigandine" "Conquest Lamellar" "Paladin's Hauberk" "Sacred Chainmail" "Torturer Garb" "Necrotic Armour" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Conqueror's Helmet" "Giantslayer Helmet" "Grizzly Pelt" "Majestic Pelt" "Sunfire Circlet" "Lich's Circlet" "Conquest Helmet" "Haunted Bascinet"  "Paladin Crown" "Divine Crown" "Ancient Mask" "Torturer's Mask" "Bone Helmet" "Titanium Spirit Shield" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Harbinger Bow" "Maraketh Bow" "Terror Claw" "Gemini Claw" "Demon Dagger" "Sai" "Gavel" "Behemoth Mace" "Sambar Sceptre" "Void Sceptre" "Coronal Maul" "Meatgrinder" "Coronal Maul" "Imperial Staff" "Tiger Hook" "Midnight Blade" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Vaal Greatsword" "Profane Wand" "Opal Wand" "Tornado Wand" "Zodiac Leather" "Royal Burgonet" "Titanium Spirit Shield" "Ezomyte Tower Shield" "Quiver" "Astral Plate" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" 
+	Rarity Rare 
+	ItemLevel >= 60
+	SetBorderColor 255 255 119
+	SetTextColor 200 155 0
 
 
 Show
@@ -1511,9 +1678,23 @@ Show
 	PlayAlertSound 11 100
 
 Show
+	Fated True
+	Rarity Rare
+	ItemLevel >= 75
+	SetBorderColor 0 200 0
+	SetTextColor 200 155 0
+
+Show
 	Rarity Rare
 	ItemLevel >= 75
 	SetBorderColor 24 121 180
+	SetTextColor 200 155 0
+
+Show
+	Fated True
+	Rarity Rare
+	ItemLevel >= 60
+	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
 
 Show
@@ -1523,22 +1704,14 @@ Show
 	SetTextColor 200 155 0
 
 Show
+	Fated True
 	Rarity Rare
+	SetBorderColor 0 200 0
 	SetTextColor 200 155 0
 
 Show
-	BaseType "Gavel"
-	ItemLevel <= 84
-	Quality = 20
-	Rarity Normal
-	SetBorderColor 255 128 12
-	SetFontSize 42
-
-Show
-	BaseType "Stone Hammer" "Rock Breaker" "Gavel"
-	ItemLevel >= 60
-	Rarity Normal
-	SetBorderColor 255 128 12
+	Rarity Rare
+	SetTextColor 200 155 0
 
 Show
 	BaseType "Quicksilver Flask" "Jade Flask" "Basalt Flask" "Stibnite Flask" "Sulphur Flask" "Bismuth Flask" "Silver Flask" "Ruby Flask" "Topaz Flask" "Amethyst Flask" "Sapphire Flask" "Aquamarine Flask" "Diamond Flask" "Granite Flask" "Quartz Flask" "Tincture"
